@@ -45,6 +45,16 @@
 		BF4F50F32B2EE7EE00F75D4E /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF4F50F12B2EE7EE00F75D4E /* ToDoList.xcdatamodeld */; };
 		BF4F50F52B2EEA6F00F75D4E /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F50F42B2EEA6F00F75D4E /* ToDoListItem.swift */; };
 		BF4F50F72B2EEEE000F75D4E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F50F62B2EEEE000F75D4E /* Persistence.swift */; };
+		BF52FC892B5411AA00DBCF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF52FC842B5411AA00DBCF36 /* Assets.xcassets */; };
+		BF52FC8A2B5411AA00DBCF36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF52FC862B5411AA00DBCF36 /* Preview Assets.xcassets */; };
+		BF52FC8B2B5411AA00DBCF36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52FC872B5411AA00DBCF36 /* ContentView.swift */; };
+		BF52FC8C2B5411AA00DBCF36 /* DownloadImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52FC882B5411AA00DBCF36 /* DownloadImageApp.swift */; };
+		BF52FC8F2B5414C500DBCF36 /* SwURL in Frameworks */ = {isa = PBXBuildFile; productRef = BF52FC8E2B5414C500DBCF36 /* SwURL */; };
+		BF52FC982B5444BC00DBCF36 /* OnboardingFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52FC972B5444BC00DBCF36 /* OnboardingFlowApp.swift */; };
+		BF52FC9A2B5444BC00DBCF36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52FC992B5444BC00DBCF36 /* ContentView.swift */; };
+		BF52FC9C2B5444BE00DBCF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF52FC9B2B5444BE00DBCF36 /* Assets.xcassets */; };
+		BF52FC9F2B5444BE00DBCF36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF52FC9E2B5444BE00DBCF36 /* Preview Assets.xcassets */; };
+		BF52FCA52B54453C00DBCF36 /* ConcentricOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = BF52FCA42B54453C00DBCF36 /* ConcentricOnboarding */; };
 		BF6ECC522B51A322007D3786 /* MVVMPatternApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6ECC512B51A322007D3786 /* MVVMPatternApp.swift */; };
 		BF6ECC542B51A322007D3786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6ECC532B51A322007D3786 /* ContentView.swift */; };
 		BF6ECC562B51A322007D3786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6ECC552B51A322007D3786 /* Assets.xcassets */; };
@@ -196,6 +206,15 @@
 		BF4F50F22B2EE7EE00F75D4E /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		BF4F50F42B2EEA6F00F75D4E /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 		BF4F50F62B2EEEE000F75D4E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BF52FC842B5411AA00DBCF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF52FC862B5411AA00DBCF36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF52FC872B5411AA00DBCF36 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF52FC882B5411AA00DBCF36 /* DownloadImageApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageApp.swift; sourceTree = "<group>"; };
+		BF52FC952B5444BC00DBCF36 /* OnboardingFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF52FC972B5444BC00DBCF36 /* OnboardingFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowApp.swift; sourceTree = "<group>"; };
+		BF52FC992B5444BC00DBCF36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF52FC9B2B5444BE00DBCF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF52FC9E2B5444BE00DBCF36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF6ECC4F2B51A321007D3786 /* MVVMPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6ECC512B51A322007D3786 /* MVVMPatternApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMPatternApp.swift; sourceTree = "<group>"; };
 		BF6ECC532B51A322007D3786 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -213,6 +232,7 @@
 		BFA27F052B53F81F00CCB908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFA27F0B2B54048D00CCB908 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		BFA27F102B54082600CCB908 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		BFA27F172B54119100CCB908 /* DownloadImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBA413E2B39A5D800C16314 /* WidgetsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetsApp.swift; sourceTree = "<group>"; };
 		BFBA413F2B39A5D800C16314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBA41412B39A5D800C16314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -318,6 +338,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF52FC922B5444BC00DBCF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF52FCA52B54453C00DBCF36 /* ConcentricOnboarding in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF6ECC4C2B51A321007D3786 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,6 +365,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA27F0F2B54055E00CCB908 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA27F142B54119100CCB908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF52FC8F2B5414C500DBCF36 /* SwURL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +654,52 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BF52FC832B5411AA00DBCF36 /* DownloadImage */ = {
+			isa = PBXGroup;
+			children = (
+				BF52FC842B5411AA00DBCF36 /* Assets.xcassets */,
+				BF52FC852B5411AA00DBCF36 /* Preview Content */,
+				BF52FC872B5411AA00DBCF36 /* ContentView.swift */,
+				BF52FC882B5411AA00DBCF36 /* DownloadImageApp.swift */,
+			);
+			path = DownloadImage;
+			sourceTree = "<group>";
+		};
+		BF52FC852B5411AA00DBCF36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF52FC862B5411AA00DBCF36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF52FC902B5444AD00DBCF36 /* 19.OnboardingFlow */ = {
+			isa = PBXGroup;
+			children = (
+				BF52FC962B5444BC00DBCF36 /* OnboardingFlow */,
+			);
+			path = 19.OnboardingFlow;
+			sourceTree = "<group>";
+		};
+		BF52FC962B5444BC00DBCF36 /* OnboardingFlow */ = {
+			isa = PBXGroup;
+			children = (
+				BF52FC972B5444BC00DBCF36 /* OnboardingFlowApp.swift */,
+				BF52FC992B5444BC00DBCF36 /* ContentView.swift */,
+				BF52FC9B2B5444BE00DBCF36 /* Assets.xcassets */,
+				BF52FC9D2B5444BE00DBCF36 /* Preview Content */,
+			);
+			path = OnboardingFlow;
+			sourceTree = "<group>";
+		};
+		BF52FC9D2B5444BE00DBCF36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF52FC9E2B5444BE00DBCF36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BF6ECC4A2B51A290007D3786 /* 12.MVVMPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -699,6 +781,14 @@
 				BFA27F052B53F81F00CCB908 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFA27F122B54117B00CCB908 /* 18.DownloadImage */ = {
+			isa = PBXGroup;
+			children = (
+				BF52FC832B5411AA00DBCF36 /* DownloadImage */,
+			);
+			path = 18.DownloadImage;
 			sourceTree = "<group>";
 		};
 		BFBA413D2B39A5D800C16314 /* Widgets */ = {
@@ -871,6 +961,8 @@
 				BF0288DA2B53BA130044F23E /* 15.FormsAndTextFiled */,
 				BF0288ED2B53C9260044F23E /* 16.TabBar */,
 				BFA27EF72B53F7ED00CCB908 /* 17.LottieAnimations */,
+				BFA27F122B54117B00CCB908 /* 18.DownloadImage */,
+				BF52FC902B5444AD00DBCF36 /* 19.OnboardingFlow */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -898,6 +990,8 @@
 				BF0288DF2B53BA310044F23E /* FormsAndTextFiled.app */,
 				BF0288F22B53C9340044F23E /* TabBar.app */,
 				BFA27EFC2B53F81E00CCB908 /* LottieAnimations.app */,
+				BFA27F172B54119100CCB908 /* DownloadImage.app */,
+				BF52FC952B5444BC00DBCF36 /* OnboardingFlow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1085,6 +1179,26 @@
 			productReference = BF4F508C2B2EE56A00F75D4E /* ToDoList.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BF52FC942B5444BC00DBCF36 /* OnboardingFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF52FCA02B5444BE00DBCF36 /* Build configuration list for PBXNativeTarget "OnboardingFlow" */;
+			buildPhases = (
+				BF52FC912B5444BC00DBCF36 /* Sources */,
+				BF52FC922B5444BC00DBCF36 /* Frameworks */,
+				BF52FC932B5444BC00DBCF36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnboardingFlow;
+			packageProductDependencies = (
+				BF52FCA42B54453C00DBCF36 /* ConcentricOnboarding */,
+			);
+			productName = OnboardingFlow;
+			productReference = BF52FC952B5444BC00DBCF36 /* OnboardingFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BF6ECC4E2B51A321007D3786 /* MVVMPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF6ECC5A2B51A322007D3786 /* Build configuration list for PBXNativeTarget "MVVMPattern" */;
@@ -1137,6 +1251,26 @@
 			);
 			productName = LottieAnimations;
 			productReference = BFA27EFC2B53F81E00CCB908 /* LottieAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA27F162B54119100CCB908 /* DownloadImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA27F222B54119200CCB908 /* Build configuration list for PBXNativeTarget "DownloadImage" */;
+			buildPhases = (
+				BFA27F132B54119100CCB908 /* Sources */,
+				BFA27F142B54119100CCB908 /* Frameworks */,
+				BFA27F152B54119100CCB908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadImage;
+			packageProductDependencies = (
+				BF52FC8E2B5414C500DBCF36 /* SwURL */,
+			);
+			productName = DownloadImage;
+			productReference = BFA27F172B54119100CCB908 /* DownloadImage.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BFC1B2E32B2CD2D900B4C270 /* Gauge */ = {
@@ -1301,6 +1435,9 @@
 					BF4F508B2B2EE56A00F75D4E = {
 						CreatedOnToolsVersion = 15.1;
 					};
+					BF52FC942B5444BC00DBCF36 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BF6ECC4E2B51A321007D3786 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -1308,6 +1445,9 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					BFA27EFB2B53F81E00CCB908 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BFA27F162B54119100CCB908 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 					BFC1B2E32B2CD2D900B4C270 = {
@@ -1345,6 +1485,8 @@
 			packageReferences = (
 				BFD5FCF22B399EEB0068F721 /* XCRemoteSwiftPackageReference "ChartView" */,
 				BFA27F0D2B54055E00CCB908 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				BF52FC8D2B5414C500DBCF36 /* XCRemoteSwiftPackageReference "SwURL" */,
+				BF52FCA32B54453C00DBCF36 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */,
 			);
 			productRefGroup = BFE70B272B2CBF510077FB17 /* Products */;
 			projectDirPath = "";
@@ -1369,6 +1511,8 @@
 				BF0288DE2B53BA310044F23E /* FormsAndTextFiled */,
 				BF0288F12B53C9340044F23E /* TabBar */,
 				BFA27EFB2B53F81E00CCB908 /* LottieAnimations */,
+				BFA27F162B54119100CCB908 /* DownloadImage */,
+				BF52FC942B5444BC00DBCF36 /* OnboardingFlow */,
 			);
 		};
 /* End PBXProject section */
@@ -1455,6 +1599,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF52FC932B5444BC00DBCF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF52FC9F2B5444BE00DBCF36 /* Preview Assets.xcassets in Resources */,
+				BF52FC9C2B5444BE00DBCF36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF6ECC4D2B51A321007D3786 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1480,6 +1633,15 @@
 				BFA27F062B53F81F00CCB908 /* Preview Assets.xcassets in Resources */,
 				BFA27F032B53F81F00CCB908 /* Assets.xcassets in Resources */,
 				BFA27F112B54082600CCB908 /* loading.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA27F152B54119100CCB908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF52FC8A2B5411AA00DBCF36 /* Preview Assets.xcassets in Resources */,
+				BF52FC892B5411AA00DBCF36 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1633,6 +1795,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF52FC912B5444BC00DBCF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF52FC9A2B5444BC00DBCF36 /* ContentView.swift in Sources */,
+				BF52FC982B5444BC00DBCF36 /* OnboardingFlowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF6ECC4B2B51A321007D3786 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1658,6 +1829,15 @@
 				BFA27F012B53F81E00CCB908 /* ContentView.swift in Sources */,
 				BFA27EFF2B53F81E00CCB908 /* LottieAnimationsApp.swift in Sources */,
 				BFA27F0C2B54048D00CCB908 /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA27F132B54119100CCB908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF52FC8B2B5411AA00DBCF36 /* ContentView.swift in Sources */,
+				BF52FC8C2B5411AA00DBCF36 /* DownloadImageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2259,6 +2439,66 @@
 			};
 			name = Release;
 		};
+		BF52FCA12B5444BE00DBCF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"19.OnboardingFlow/OnboardingFlow/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.OnboardingFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF52FCA22B5444BE00DBCF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"19.OnboardingFlow/OnboardingFlow/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.OnboardingFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BF6ECC5B2B51A322007D3786 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2432,6 +2672,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.LottieAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFA27F232B54119200CCB908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"18.DownloadImage/DownloadImage/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.DownloadImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA27F242B54119200CCB908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"18.DownloadImage/DownloadImage/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.DownloadImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -3026,6 +3326,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BF52FCA02B5444BE00DBCF36 /* Build configuration list for PBXNativeTarget "OnboardingFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF52FCA12B5444BE00DBCF36 /* Debug */,
+				BF52FCA22B5444BE00DBCF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BF6ECC5A2B51A322007D3786 /* Build configuration list for PBXNativeTarget "MVVMPattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3049,6 +3358,15 @@
 			buildConfigurations = (
 				BFA27F082B53F81F00CCB908 /* Debug */,
 				BFA27F092B53F81F00CCB908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA27F222B54119200CCB908 /* Build configuration list for PBXNativeTarget "DownloadImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA27F232B54119200CCB908 /* Debug */,
+				BFA27F242B54119200CCB908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3128,6 +3446,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BF52FC8D2B5414C500DBCF36 /* XCRemoteSwiftPackageReference "SwURL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cmtrounce/SwURL";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+		BF52FCA32B54453C00DBCF36 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ConcentricOnboarding";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
 		BFA27F0D2B54055E00CCB908 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -3147,6 +3481,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BF52FC8E2B5414C500DBCF36 /* SwURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF52FC8D2B5414C500DBCF36 /* XCRemoteSwiftPackageReference "SwURL" */;
+			productName = SwURL;
+		};
+		BF52FCA42B54453C00DBCF36 /* ConcentricOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF52FCA32B54453C00DBCF36 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */;
+			productName = ConcentricOnboarding;
+		};
 		BFA27F0E2B54055E00CCB908 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BFA27F0D2B54055E00CCB908 /* XCRemoteSwiftPackageReference "lottie-ios" */;
