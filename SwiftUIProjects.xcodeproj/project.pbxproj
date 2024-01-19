@@ -15,6 +15,11 @@
 		BF0288E42B53BA310044F23E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0288E32B53BA310044F23E /* ContentView.swift */; };
 		BF0288E62B53BA330044F23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0288E52B53BA330044F23E /* Assets.xcassets */; };
 		BF0288E92B53BA330044F23E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0288E82B53BA330044F23E /* Preview Assets.xcassets */; };
+		BF036ACB2B558AE20032CE98 /* MapViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF036AC52B558AE20032CE98 /* MapViewApp.swift */; };
+		BF036ACC2B558AE20032CE98 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF036AC62B558AE20032CE98 /* MapView.swift */; };
+		BF036ACD2B558AE20032CE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF036AC72B558AE20032CE98 /* Assets.xcassets */; };
+		BF036ACE2B558AE20032CE98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF036AC92B558AE20032CE98 /* Preview Assets.xcassets */; };
+		BF036ACF2B558AE20032CE98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF036ACA2B558AE20032CE98 /* ContentView.swift */; };
 		BF4BEA052B34A62800468687 /* GradientsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BEA042B34A62800468687 /* GradientsApp.swift */; };
 		BF4BEA072B34A62800468687 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BEA062B34A62800468687 /* ContentView.swift */; };
 		BF4BEA092B34A62900468687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4BEA082B34A62900468687 /* Assets.xcassets */; };
@@ -119,6 +124,14 @@
 		BFE70B5E2B2CC0070077FB17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE70B5D2B2CC0070077FB17 /* ContentView.swift */; };
 		BFE70B602B2CC0080077FB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE70B5F2B2CC0080077FB17 /* Assets.xcassets */; };
 		BFE70B632B2CC0080077FB17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE70B622B2CC0080077FB17 /* Preview Assets.xcassets */; };
+		BFFBCDFA2B5903A300B2FBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFBCDF52B5903A200B2FBE2 /* Assets.xcassets */; };
+		BFFBCDFB2B5903A300B2FBE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFBCDF72B5903A200B2FBE2 /* Preview Assets.xcassets */; };
+		BFFBCDFC2B5903A300B2FBE2 /* DatePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFBCDF82B5903A200B2FBE2 /* DatePickerApp.swift */; };
+		BFFBCDFD2B5903A300B2FBE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFBCDF92B5903A200B2FBE2 /* ContentView.swift */; };
+		BFFC49EA2B59091A00EFCB2D /* SideMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC49E92B59091A00EFCB2D /* SideMenuApp.swift */; };
+		BFFC49EC2B59091A00EFCB2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC49EB2B59091A00EFCB2D /* ContentView.swift */; };
+		BFFC49EE2B59091C00EFCB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFC49ED2B59091C00EFCB2D /* Assets.xcassets */; };
+		BFFC49F12B59091C00EFCB2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFC49F02B59091C00EFCB2D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,6 +197,12 @@
 		BF0288E52B53BA330044F23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF0288E82B53BA330044F23E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF0288F22B53C9340044F23E /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF036AB42B558AC60032CE98 /* MapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF036AC52B558AE20032CE98 /* MapViewApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewApp.swift; sourceTree = "<group>"; };
+		BF036AC62B558AE20032CE98 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BF036AC72B558AE20032CE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF036AC92B558AE20032CE98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF036ACA2B558AE20032CE98 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF4BEA022B34A62800468687 /* Gradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4BEA042B34A62800468687 /* GradientsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsApp.swift; sourceTree = "<group>"; };
 		BF4BEA062B34A62800468687 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -231,6 +250,7 @@
 		BF52FC9B2B5444BE00DBCF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF52FC9E2B5444BE00DBCF36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF52FCAB2B54DA1200DBCF36 /* ActivityIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6623D82B5903420068FC0F /* DatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6ECC4F2B51A321007D3786 /* MVVMPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6ECC512B51A322007D3786 /* MVVMPatternApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMPatternApp.swift; sourceTree = "<group>"; };
 		BF6ECC532B51A322007D3786 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -302,6 +322,15 @@
 		BFE70B5D2B2CC0070077FB17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFE70B5F2B2CC0080077FB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE70B622B2CC0080077FB17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFFBCDF52B5903A200B2FBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFFBCDF72B5903A200B2FBE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFFBCDF82B5903A200B2FBE2 /* DatePickerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerApp.swift; sourceTree = "<group>"; };
+		BFFBCDF92B5903A200B2FBE2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFFC49E72B59091A00EFCB2D /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFC49E92B59091A00EFCB2D /* SideMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuApp.swift; sourceTree = "<group>"; };
+		BFFC49EB2B59091A00EFCB2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFFC49ED2B59091C00EFCB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFFC49F02B59091C00EFCB2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +342,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF0288EF2B53C9340044F23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF036AB12B558AC60032CE98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,6 +417,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD34C1E2B54E022005C0062 /* ActivityIndicatorView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6623D52B5903420068FC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +518,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFFC49E42B59091900EFCB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -530,6 +580,34 @@
 				BFA27EED2B53C94F00CCB908 /* TabBar */,
 			);
 			path = 16.TabBar;
+			sourceTree = "<group>";
+		};
+		BF036AC32B558AE20032CE98 /* 23.MapView */ = {
+			isa = PBXGroup;
+			children = (
+				BF036AC42B558AE20032CE98 /* MapView */,
+			);
+			path = 23.MapView;
+			sourceTree = "<group>";
+		};
+		BF036AC42B558AE20032CE98 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				BF036AC52B558AE20032CE98 /* MapViewApp.swift */,
+				BF036AC62B558AE20032CE98 /* MapView.swift */,
+				BF036AC72B558AE20032CE98 /* Assets.xcassets */,
+				BF036AC82B558AE20032CE98 /* Preview Content */,
+				BF036ACA2B558AE20032CE98 /* ContentView.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		BF036AC82B558AE20032CE98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF036AC92B558AE20032CE98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		BF4BE9FD2B34A60700468687 /* 6.Gradients */ = {
@@ -760,6 +838,14 @@
 				BFD34C122B54DA93005C0062 /* ActivityIndicator */,
 			);
 			path = 20.ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		BF6623D32B5903290068FC0F /* 24.DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BFFBCDF42B5903A200B2FBE2 /* DatePicker */,
+			);
+			path = 24.DatePicker;
 			sourceTree = "<group>";
 		};
 		BF6ECC4A2B51A290007D3786 /* 12.MVVMPattern */ = {
@@ -1101,6 +1187,9 @@
 				BF52FCA62B54D95A00DBCF36 /* 20.ActivityIndicator */,
 				BFD34C1F2B54E786005C0062 /* 21.CoolIcons */,
 				BFD34C362B54F51A005C0062 /* 22.Toasts */,
+				BF036AC32B558AE20032CE98 /* 23.MapView */,
+				BF6623D32B5903290068FC0F /* 24.DatePicker */,
+				BFFC49E22B59090400EFCB2D /* 25.SideMenu */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -1133,6 +1222,9 @@
 				BF52FCAB2B54DA1200DBCF36 /* ActivityIndicator.app */,
 				BFD34C242B54E797005C0062 /* CoolIcons.app */,
 				BFD34C3B2B54F531005C0062 /* Toasts.app */,
+				BF036AB42B558AC60032CE98 /* MapView.app */,
+				BF6623D82B5903420068FC0F /* DatePicker.app */,
+				BFFC49E72B59091A00EFCB2D /* SideMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1160,6 +1252,52 @@
 			isa = PBXGroup;
 			children = (
 				BFE70B622B2CC0080077FB17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFFBCDF42B5903A200B2FBE2 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BFFBCDF52B5903A200B2FBE2 /* Assets.xcassets */,
+				BFFBCDF62B5903A200B2FBE2 /* Preview Content */,
+				BFFBCDF82B5903A200B2FBE2 /* DatePickerApp.swift */,
+				BFFBCDF92B5903A200B2FBE2 /* ContentView.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		BFFBCDF62B5903A200B2FBE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFFBCDF72B5903A200B2FBE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFFC49E22B59090400EFCB2D /* 25.SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC49E82B59091A00EFCB2D /* SideMenu */,
+			);
+			path = 25.SideMenu;
+			sourceTree = "<group>";
+		};
+		BFFC49E82B59091A00EFCB2D /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC49E92B59091A00EFCB2D /* SideMenuApp.swift */,
+				BFFC49EB2B59091A00EFCB2D /* ContentView.swift */,
+				BFFC49ED2B59091C00EFCB2D /* Assets.xcassets */,
+				BFFC49EF2B59091C00EFCB2D /* Preview Content */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		BFFC49EF2B59091C00EFCB2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC49F02B59091C00EFCB2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -1199,6 +1337,23 @@
 			name = TabBar;
 			productName = TabBar;
 			productReference = BF0288F22B53C9340044F23E /* TabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF036AB32B558AC60032CE98 /* MapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF036AC12B558AC80032CE98 /* Build configuration list for PBXNativeTarget "MapView" */;
+			buildPhases = (
+				BF036AB02B558AC60032CE98 /* Sources */,
+				BF036AB12B558AC60032CE98 /* Frameworks */,
+				BF036AB22B558AC60032CE98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapView;
+			productName = MapView;
+			productReference = BF036AB42B558AC60032CE98 /* MapView.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BF4BEA012B34A62800468687 /* Gradients */ = {
@@ -1358,6 +1513,23 @@
 			);
 			productName = ActivityIndicator;
 			productReference = BF52FCAB2B54DA1200DBCF36 /* ActivityIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF6623D72B5903420068FC0F /* DatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6623E32B5903420068FC0F /* Build configuration list for PBXNativeTarget "DatePicker" */;
+			buildPhases = (
+				BF6623D42B5903420068FC0F /* Sources */,
+				BF6623D52B5903420068FC0F /* Frameworks */,
+				BF6623D62B5903420068FC0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePicker;
+			productName = DatePicker;
+			productReference = BF6623D82B5903420068FC0F /* DatePicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BF6ECC4E2B51A321007D3786 /* MVVMPattern */ = {
@@ -1599,6 +1771,23 @@
 			productReference = BFE70B592B2CC0070077FB17 /* Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFFC49E62B59091900EFCB2D /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFC49F22B59091C00EFCB2D /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				BFFC49E32B59091900EFCB2D /* Sources */,
+				BFFC49E42B59091900EFCB2D /* Frameworks */,
+				BFFC49E52B59091900EFCB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = BFFC49E72B59091A00EFCB2D /* SideMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1613,6 +1802,9 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					BF0288F12B53C9340044F23E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BF036AB32B558AC60032CE98 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 					BF4BEA012B34A62800468687 = {
@@ -1640,6 +1832,9 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					BF52FCAA2B54DA1200DBCF36 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BF6623D72B5903420068FC0F = {
 						CreatedOnToolsVersion = 15.2;
 					};
 					BF6ECC4E2B51A321007D3786 = {
@@ -1680,6 +1875,9 @@
 					};
 					BFE70B582B2CC0070077FB17 = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					BFFC49E62B59091900EFCB2D = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -1729,6 +1927,9 @@
 				BF52FCAA2B54DA1200DBCF36 /* ActivityIndicator */,
 				BFD34C232B54E797005C0062 /* CoolIcons */,
 				BFD34C3A2B54F531005C0062 /* Toasts */,
+				BF036AB32B558AC60032CE98 /* MapView */,
+				BF6623D72B5903420068FC0F /* DatePicker */,
+				BFFC49E62B59091900EFCB2D /* SideMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -1749,6 +1950,15 @@
 			files = (
 				BFA27EF42B53C94F00CCB908 /* Preview Assets.xcassets in Resources */,
 				BFA27EF32B53C94F00CCB908 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF036AB22B558AC60032CE98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF036ACE2B558AE20032CE98 /* Preview Assets.xcassets in Resources */,
+				BF036ACD2B558AE20032CE98 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1830,6 +2040,15 @@
 			files = (
 				BFD34C192B54DA93005C0062 /* Preview Assets.xcassets in Resources */,
 				BFD34C182B54DA93005C0062 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6623D62B5903420068FC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFBCDFB2B5903A300B2FBE2 /* Preview Assets.xcassets in Resources */,
+				BFFBCDFA2B5903A300B2FBE2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1948,6 +2167,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFFC49E52B59091900EFCB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFC49F12B59091C00EFCB2D /* Preview Assets.xcassets in Resources */,
+				BFFC49EE2B59091C00EFCB2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1966,6 +2194,16 @@
 			files = (
 				BFA27EF62B53C94F00CCB908 /* ContentView.swift in Sources */,
 				BFA27EF52B53C94F00CCB908 /* TabBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF036AB02B558AC60032CE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF036ACF2B558AE20032CE98 /* ContentView.swift in Sources */,
+				BF036ACC2B558AE20032CE98 /* MapView.swift in Sources */,
+				BF036ACB2B558AE20032CE98 /* MapViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2053,6 +2291,15 @@
 			files = (
 				BFD34C1B2B54DA93005C0062 /* ContentView.swift in Sources */,
 				BFD34C1A2B54DA93005C0062 /* ActivityIndicatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6623D42B5903420068FC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFBCDFD2B5903A300B2FBE2 /* ContentView.swift in Sources */,
+				BFFBCDFC2B5903A300B2FBE2 /* DatePickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2164,6 +2411,15 @@
 			files = (
 				BFE70B5E2B2CC0070077FB17 /* ContentView.swift in Sources */,
 				BFE70B5C2B2CC0070077FB17 /* NavigationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFC49E32B59091900EFCB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFC49EC2B59091A00EFCB2D /* ContentView.swift in Sources */,
+				BFFC49EA2B59091A00EFCB2D /* SideMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2296,6 +2552,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.TabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF036ABF2B558AC80032CE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"23.MapView/MapView/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.MapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF036AC02B558AC80032CE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"23.MapView/MapView/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.MapView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -2822,6 +3138,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.ActivityIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF6623E42B5903420068FC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"24.DatePicker/DatePicker/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.DatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF6623E52B5903420068FC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"24.DatePicker/DatePicker/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.DatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -3692,6 +4068,66 @@
 			};
 			name = Release;
 		};
+		BFFC49F32B59091C00EFCB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"25.SideMenu/SideMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.SideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFFC49F42B59091C00EFCB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"25.SideMenu/SideMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.SideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3709,6 +4145,15 @@
 			buildConfigurations = (
 				BF0288FE2B53C9350044F23E /* Debug */,
 				BF0288FF2B53C9350044F23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF036AC12B558AC80032CE98 /* Build configuration list for PBXNativeTarget "MapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF036ABF2B558AC80032CE98 /* Debug */,
+				BF036AC02B558AC80032CE98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3790,6 +4235,15 @@
 			buildConfigurations = (
 				BF52FCB72B54DA1400DBCF36 /* Debug */,
 				BF52FCB82B54DA1400DBCF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6623E32B5903420068FC0F /* Build configuration list for PBXNativeTarget "DatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6623E42B5903420068FC0F /* Debug */,
+				BF6623E52B5903420068FC0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3916,6 +4370,15 @@
 			buildConfigurations = (
 				BFE70B7B2B2CC0080077FB17 /* Debug */,
 				BFE70B7C2B2CC0080077FB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFC49F22B59091C00EFCB2D /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFC49F32B59091C00EFCB2D /* Debug */,
+				BFFC49F42B59091C00EFCB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
