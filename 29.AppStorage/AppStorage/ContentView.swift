@@ -7,10 +7,16 @@
 
 import SwiftUI
 
+struct Settings {
+    static let firstNameKey = "firstName"
+    static let lastNameKey = "lastName"
+    static let isSubscribedKey = "isSubscriber"
+}
+
 struct ContentView: View {
-    @AppStorage("firstName") var firstName = ""
-    @AppStorage("lastName") var lastName = ""
-    @AppStorage("isSubscribed") var isSubscribed = false
+    @AppStorage(Settings.firstNameKey) var firstName = ""
+    @AppStorage(Settings.lastNameKey) var lastName = ""
+    @AppStorage(Settings.isSubscribedKey) var isSubscriber = false
 
     var body: some View {
         NavigationView {
@@ -24,7 +30,7 @@ struct ContentView: View {
                     }
                     
                     Section(header: Text("Member Status")) {
-                        Toggle("Is Subscribed", isOn: $isSubscribed)
+                        Toggle("Is Subscribed", isOn: $isSubscriber)
                     }
                 }
             }
