@@ -89,6 +89,10 @@
 		BFBA41442B39A5D800C16314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA413F2B39A5D800C16314 /* Assets.xcassets */; };
 		BFBA41452B39A5D800C16314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA41412B39A5D800C16314 /* Preview Assets.xcassets */; };
 		BFBA41462B39A5D800C16314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA41422B39A5D800C16314 /* ContentView.swift */; };
+		BFBB8F2F2B5CE7E500C6BE97 /* AppStorageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8F2E2B5CE7E500C6BE97 /* AppStorageApp.swift */; };
+		BFBB8F312B5CE7E500C6BE97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8F302B5CE7E500C6BE97 /* ContentView.swift */; };
+		BFBB8F332B5CE7E600C6BE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8F322B5CE7E600C6BE97 /* Assets.xcassets */; };
+		BFBB8F362B5CE7E600C6BE97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8F352B5CE7E600C6BE97 /* Preview Assets.xcassets */; };
 		BFC1B2EA2B2CD2D900B4C270 /* Gauge Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BFC1B2E92B2CD2D900B4C270 /* Gauge Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BFC1B2EF2B2CD2DA00B4C270 /* GaugeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1B2EE2B2CD2DA00B4C270 /* GaugeApp.swift */; };
 		BFC1B2F12B2CD2DA00B4C270 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1B2F02B2CD2DA00B4C270 /* ContentView.swift */; };
@@ -295,6 +299,11 @@
 		BFBA413F2B39A5D800C16314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBA41412B39A5D800C16314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFBA41422B39A5D800C16314 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFBB8F2C2B5CE7E500C6BE97 /* AppStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBB8F2E2B5CE7E500C6BE97 /* AppStorageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageApp.swift; sourceTree = "<group>"; };
+		BFBB8F302B5CE7E500C6BE97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFBB8F322B5CE7E600C6BE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFBB8F352B5CE7E600C6BE97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFC1B2E42B2CD2D900B4C270 /* Gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC1B2E92B2CD2D900B4C270 /* Gauge Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gauge Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC1B2EE2B2CD2DA00B4C270 /* GaugeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeApp.swift; sourceTree = "<group>"; };
@@ -344,6 +353,7 @@
 		BFE70B5D2B2CC0070077FB17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFE70B5F2B2CC0080077FB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE70B622B2CC0080077FB17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFF297BE2B5CD5F000EEBCDC /* CoolSwiftUICharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolSwiftUICharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFBCDF52B5903A200B2FBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFFBCDF72B5903A200B2FBE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFFBCDF82B5903A200B2FBE2 /* DatePickerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerApp.swift; sourceTree = "<group>"; };
@@ -493,6 +503,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFBB8F292B5CE7E500C6BE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFC1B2E62B2CD2D900B4C270 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,6 +565,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFE70B562B2CC0070077FB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF297BB2B5CD5F000EEBCDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -692,6 +716,14 @@
 				BF0E04252B5A8E1C001179AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF0E042A2B5ACCF9001179AB /* 28.CoolSwiftUICharts */ = {
+			isa = PBXGroup;
+			children = (
+				BFBB8F162B5CE7AF00C6BE97 /* CoolSwiftUICharts */,
+			);
+			path = 28.CoolSwiftUICharts;
 			sourceTree = "<group>";
 		};
 		BF4BE9FD2B34A60700468687 /* 6.Gradients */ = {
@@ -1050,6 +1082,40 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BFBB8F162B5CE7AF00C6BE97 /* CoolSwiftUICharts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoolSwiftUICharts;
+			sourceTree = "<group>";
+		};
+		BFBB8F272B5CE7C800C6BE97 /* 29.AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				BFBB8F2D2B5CE7E500C6BE97 /* AppStorage */,
+			);
+			path = 29.AppStorage;
+			sourceTree = "<group>";
+		};
+		BFBB8F2D2B5CE7E500C6BE97 /* AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				BFBB8F2E2B5CE7E500C6BE97 /* AppStorageApp.swift */,
+				BFBB8F302B5CE7E500C6BE97 /* ContentView.swift */,
+				BFBB8F322B5CE7E600C6BE97 /* Assets.xcassets */,
+				BFBB8F342B5CE7E600C6BE97 /* Preview Content */,
+			);
+			path = AppStorage;
+			sourceTree = "<group>";
+		};
+		BFBB8F342B5CE7E600C6BE97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFBB8F352B5CE7E600C6BE97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BFC1B2E12B2CD2B600B4C270 /* 2.Gauge */ = {
 			isa = PBXGroup;
 			children = (
@@ -1284,6 +1350,8 @@
 				BFFC49E22B59090400EFCB2D /* 25.SideMenu */,
 				BF9354AD2B5A785200586891 /* 26.WeatherMVVM */,
 				BF0E04172B5A8DF9001179AB /* 27.CustomModifiers */,
+				BF0E042A2B5ACCF9001179AB /* 28.CoolSwiftUICharts */,
+				BFBB8F272B5CE7C800C6BE97 /* 29.AppStorage */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -1321,6 +1389,8 @@
 				BFFC49E72B59091A00EFCB2D /* SideMenu.app */,
 				BF9354B22B5A786900586891 /* WeatherMVVM.app */,
 				BF0E041C2B5A8E1B001179AB /* CustomModifiers.app */,
+				BFF297BE2B5CD5F000EEBCDC /* CoolSwiftUICharts.app */,
+				BFBB8F2C2B5CE7E500C6BE97 /* AppStorage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1736,6 +1806,23 @@
 			productReference = BFA27F172B54119100CCB908 /* DownloadImage.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFBB8F2B2B5CE7E500C6BE97 /* AppStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBB8F372B5CE7E600C6BE97 /* Build configuration list for PBXNativeTarget "AppStorage" */;
+			buildPhases = (
+				BFBB8F282B5CE7E500C6BE97 /* Sources */,
+				BFBB8F292B5CE7E500C6BE97 /* Frameworks */,
+				BFBB8F2A2B5CE7E500C6BE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppStorage;
+			productName = AppStorage;
+			productReference = BFBB8F2C2B5CE7E500C6BE97 /* AppStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFC1B2E32B2CD2D900B4C270 /* Gauge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFC1B3112B2CD2DC00B4C270 /* Build configuration list for PBXNativeTarget "Gauge" */;
@@ -1901,6 +1988,23 @@
 			productReference = BFE70B592B2CC0070077FB17 /* Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFF297BD2B5CD5F000EEBCDC /* CoolSwiftUICharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF297C92B5CD5F100EEBCDC /* Build configuration list for PBXNativeTarget "CoolSwiftUICharts" */;
+			buildPhases = (
+				BFF297BA2B5CD5F000EEBCDC /* Sources */,
+				BFF297BB2B5CD5F000EEBCDC /* Frameworks */,
+				BFF297BC2B5CD5F000EEBCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolSwiftUICharts;
+			productName = CoolSwiftUICharts;
+			productReference = BFF297BE2B5CD5F000EEBCDC /* CoolSwiftUICharts.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFFC49E62B59091900EFCB2D /* SideMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFFC49F22B59091C00EFCB2D /* Build configuration list for PBXNativeTarget "SideMenu" */;
@@ -1985,6 +2089,9 @@
 					BFA27F162B54119100CCB908 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFBB8F2B2B5CE7E500C6BE97 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFC1B2E32B2CD2D900B4C270 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -2011,6 +2118,9 @@
 					};
 					BFE70B582B2CC0070077FB17 = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					BFF297BD2B5CD5F000EEBCDC = {
+						CreatedOnToolsVersion = 15.2;
 					};
 					BFFC49E62B59091900EFCB2D = {
 						CreatedOnToolsVersion = 15.2;
@@ -2068,6 +2178,8 @@
 				BFFC49E62B59091900EFCB2D /* SideMenu */,
 				BF9354B12B5A786900586891 /* WeatherMVVM */,
 				BF0E041B2B5A8E1B001179AB /* CustomModifiers */,
+				BFF297BD2B5CD5F000EEBCDC /* CoolSwiftUICharts */,
+				BFBB8F2B2B5CE7E500C6BE97 /* AppStorage */,
 			);
 		};
 /* End PBXProject section */
@@ -2245,6 +2357,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFBB8F2A2B5CE7E500C6BE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBB8F362B5CE7E600C6BE97 /* Preview Assets.xcassets in Resources */,
+				BFBB8F332B5CE7E600C6BE97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFC1B2E22B2CD2D900B4C270 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2320,6 +2441,13 @@
 			files = (
 				BFE70B632B2CC0080077FB17 /* Preview Assets.xcassets in Resources */,
 				BFE70B602B2CC0080077FB17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF297BC2B5CD5F000EEBCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2516,6 +2644,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFBB8F282B5CE7E500C6BE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBB8F312B5CE7E500C6BE97 /* ContentView.swift in Sources */,
+				BFBB8F2F2B5CE7E500C6BE97 /* AppStorageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFC1B2E52B2CD2D900B4C270 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2587,6 +2724,13 @@
 			files = (
 				BFE70B5E2B2CC0070077FB17 /* ContentView.swift in Sources */,
 				BFE70B5C2B2CC0070077FB17 /* NavigationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF297BA2B5CD5F000EEBCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3741,6 +3885,66 @@
 			};
 			name = Release;
 		};
+		BFBB8F382B5CE7E600C6BE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"29.AppStorage/AppStorage/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AppStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFBB8F392B5CE7E600C6BE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"29.AppStorage/AppStorage/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AppStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BFC1B30E2B2CD2DC00B4C270 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4364,6 +4568,66 @@
 			};
 			name = Release;
 		};
+		BFF297CA2B5CD5F100EEBCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"28.CoolSwiftUICharts/CoolSwiftUICharts/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.CoolSwiftUICharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF297CB2B5CD5F100EEBCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"28.CoolSwiftUICharts/CoolSwiftUICharts/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.CoolSwiftUICharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BFFC49F32B59091C00EFCB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4598,6 +4862,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BFBB8F372B5CE7E600C6BE97 /* Build configuration list for PBXNativeTarget "AppStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBB8F382B5CE7E600C6BE97 /* Debug */,
+				BFBB8F392B5CE7E600C6BE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BFC1B30D2B2CD2DC00B4C270 /* Build configuration list for PBXNativeTarget "Gauge Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4684,6 +4957,15 @@
 			buildConfigurations = (
 				BFE70B7B2B2CC0080077FB17 /* Debug */,
 				BFE70B7C2B2CC0080077FB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF297C92B5CD5F100EEBCDC /* Build configuration list for PBXNativeTarget "CoolSwiftUICharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF297CA2B5CD5F100EEBCDC /* Debug */,
+				BFF297CB2B5CD5F100EEBCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
