@@ -122,6 +122,21 @@
 		BFD5FCEB2B3805660068F721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD5FCEA2B3805660068F721 /* Assets.xcassets */; };
 		BFD5FCEE2B3805660068F721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD5FCED2B3805660068F721 /* Preview Assets.xcassets */; };
 		BFD5FCF42B399F1B0068F721 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BFD5FCF32B399F1B0068F721 /* SwiftUICharts */; };
+		BFD616CA2B5E245F00E98762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD616C52B5E245F00E98762 /* Assets.xcassets */; };
+		BFD616CB2B5E245F00E98762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD616C72B5E245F00E98762 /* Preview Assets.xcassets */; };
+		BFD616CC2B5E245F00E98762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD616C82B5E245F00E98762 /* ContentView.swift */; };
+		BFD616CD2B5E245F00E98762 /* AdvancedMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD616C92B5E245F00E98762 /* AdvancedMapApp.swift */; };
+		BFD616D62B5E50DD00E98762 /* GesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD616D52B5E50DD00E98762 /* GesturesApp.swift */; };
+		BFD616D82B5E50DD00E98762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD616D72B5E50DD00E98762 /* ContentView.swift */; };
+		BFD616DA2B5E50DE00E98762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD616D92B5E50DE00E98762 /* Assets.xcassets */; };
+		BFD616DD2B5E50DE00E98762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD616DC2B5E50DE00E98762 /* Preview Assets.xcassets */; };
+		BFD616E92B5E623A00E98762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD616E82B5E623A00E98762 /* AppDelegate.swift */; };
+		BFD616EB2B5E623A00E98762 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD616EA2B5E623A00E98762 /* SceneDelegate.swift */; };
+		BFD616ED2B5E623A00E98762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD616EC2B5E623A00E98762 /* ViewController.swift */; };
+		BFD616F02B5E623A00E98762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD616EE2B5E623A00E98762 /* Main.storyboard */; };
+		BFD616F22B5E623B00E98762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD616F12B5E623B00E98762 /* Assets.xcassets */; };
+		BFD616F52B5E623B00E98762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD616F32B5E623B00E98762 /* LaunchScreen.storyboard */; };
+		BFD616FD2B5E667000E98762 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD616FB2B5E654C00E98762 /* SettingScreen.swift */; };
 		BFD6D58A2B3ADA0800D66C90 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6D5892B3ADA0800D66C90 /* WidgetKit.framework */; };
 		BFD6D58C2B3ADA0800D66C90 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6D58B2B3ADA0800D66C90 /* SwiftUI.framework */; };
 		BFD6D58F2B3ADA0800D66C90 /* WidgetsExampleExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6D58E2B3ADA0800D66C90 /* WidgetsExampleExtensionBundle.swift */; };
@@ -130,6 +145,10 @@
 		BFD6D5952B3ADA0800D66C90 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6D5942B3ADA0800D66C90 /* AppIntent.swift */; };
 		BFD6D5972B3ADA0900D66C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD6D5962B3ADA0900D66C90 /* Assets.xcassets */; };
 		BFD6D59B2B3ADA0900D66C90 /* WidgetsExampleExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BFD6D5872B3ADA0800D66C90 /* WidgetsExampleExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFDD99F72B5D7ED1004918AF /* LabelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDD99F62B5D7ED1004918AF /* LabelsApp.swift */; };
+		BFDD99F92B5D7ED1004918AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDD99F82B5D7ED1004918AF /* ContentView.swift */; };
+		BFDD99FB2B5D7ED2004918AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDD99FA2B5D7ED2004918AF /* Assets.xcassets */; };
+		BFDD99FE2B5D7ED2004918AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDD99FD2B5D7ED2004918AF /* Preview Assets.xcassets */; };
 		BFE0E9E72B5256E30047A767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE0E9E22B5256E30047A767 /* Assets.xcassets */; };
 		BFE0E9E82B5256E30047A767 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE0E9E42B5256E30047A767 /* Preview Assets.xcassets */; };
 		BFE0E9E92B5256E30047A767 /* StatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE0E9E52B5256E30047A767 /* StatesApp.swift */; };
@@ -334,6 +353,24 @@
 		BFD5FCEA2B3805660068F721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD5FCED2B3805660068F721 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFD5FCFA2B39A5B70068F721 /* Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD616C52B5E245F00E98762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD616C72B5E245F00E98762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFD616C82B5E245F00E98762 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFD616C92B5E245F00E98762 /* AdvancedMapApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedMapApp.swift; sourceTree = "<group>"; };
+		BFD616D32B5E50DD00E98762 /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD616D52B5E50DD00E98762 /* GesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesApp.swift; sourceTree = "<group>"; };
+		BFD616D72B5E50DD00E98762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFD616D92B5E50DE00E98762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD616DC2B5E50DE00E98762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFD616E62B5E623A00E98762 /* InUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD616E82B5E623A00E98762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFD616EA2B5E623A00E98762 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFD616EC2B5E623A00E98762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFD616EF2B5E623A00E98762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFD616F12B5E623B00E98762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD616F42B5E623B00E98762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFD616F62B5E623B00E98762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD616FB2B5E654C00E98762 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
 		BFD6D5872B3ADA0800D66C90 /* WidgetsExampleExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetsExampleExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD6D5892B3ADA0800D66C90 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		BFD6D58B2B3ADA0800D66C90 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -343,6 +380,12 @@
 		BFD6D5942B3ADA0800D66C90 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		BFD6D5962B3ADA0900D66C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD6D5982B3ADA0900D66C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDD99F42B5D7ED1004918AF /* Labels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Labels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDD99F62B5D7ED1004918AF /* LabelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsApp.swift; sourceTree = "<group>"; };
+		BFDD99F82B5D7ED1004918AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFDD99FA2B5D7ED2004918AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFDD99FD2B5D7ED2004918AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFDD9A072B5E2439004918AF /* AdvancedMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE0E9E22B5256E30047A767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE0E9E42B5256E30047A767 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFE0E9E52B5256E30047A767 /* StatesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesApp.swift; sourceTree = "<group>"; };
@@ -548,12 +591,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFD616D02B5E50DD00E98762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD616E32B5E623A00E98762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFD6D5842B3ADA0800D66C90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BFD6D58C2B3ADA0800D66C90 /* SwiftUI.framework in Frameworks */,
 				BFD6D58A2B3ADA0800D66C90 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDD99F12B5D7ED1004918AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDD9A042B5E2439004918AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1271,6 +1342,75 @@
 			path = 11.Widgets;
 			sourceTree = "<group>";
 		};
+		BFD616C42B5E245F00E98762 /* AdvancedMap */ = {
+			isa = PBXGroup;
+			children = (
+				BFD616C52B5E245F00E98762 /* Assets.xcassets */,
+				BFD616C62B5E245F00E98762 /* Preview Content */,
+				BFD616C82B5E245F00E98762 /* ContentView.swift */,
+				BFD616C92B5E245F00E98762 /* AdvancedMapApp.swift */,
+			);
+			path = AdvancedMap;
+			sourceTree = "<group>";
+		};
+		BFD616C62B5E245F00E98762 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFD616C72B5E245F00E98762 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFD616CE2B5E50CF00E98762 /* 32.Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				BFD616D42B5E50DD00E98762 /* Gestures */,
+			);
+			path = 32.Gestures;
+			sourceTree = "<group>";
+		};
+		BFD616D42B5E50DD00E98762 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				BFD616D52B5E50DD00E98762 /* GesturesApp.swift */,
+				BFD616D72B5E50DD00E98762 /* ContentView.swift */,
+				BFD616D92B5E50DE00E98762 /* Assets.xcassets */,
+				BFD616DB2B5E50DE00E98762 /* Preview Content */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		BFD616DB2B5E50DE00E98762 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFD616DC2B5E50DE00E98762 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFD616E12B5E622400E98762 /* 33.InUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BFD616E72B5E623A00E98762 /* InUIKit */,
+			);
+			path = 33.InUIKit;
+			sourceTree = "<group>";
+		};
+		BFD616E72B5E623A00E98762 /* InUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BFD616E82B5E623A00E98762 /* AppDelegate.swift */,
+				BFD616EA2B5E623A00E98762 /* SceneDelegate.swift */,
+				BFD616EC2B5E623A00E98762 /* ViewController.swift */,
+				BFD616FB2B5E654C00E98762 /* SettingScreen.swift */,
+				BFD616EE2B5E623A00E98762 /* Main.storyboard */,
+				BFD616F12B5E623B00E98762 /* Assets.xcassets */,
+				BFD616F32B5E623B00E98762 /* LaunchScreen.storyboard */,
+				BFD616F62B5E623B00E98762 /* Info.plist */,
+			);
+			path = InUIKit;
+			sourceTree = "<group>";
+		};
 		BFD6D5882B3ADA0800D66C90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1291,6 +1431,41 @@
 				BFD6D5982B3ADA0900D66C90 /* Info.plist */,
 			);
 			path = WidgetsExampleExtension;
+			sourceTree = "<group>";
+		};
+		BFDD99EF2B5D7EBE004918AF /* 30.Labels */ = {
+			isa = PBXGroup;
+			children = (
+				BFDD99F52B5D7ED1004918AF /* Labels */,
+			);
+			path = 30.Labels;
+			sourceTree = "<group>";
+		};
+		BFDD99F52B5D7ED1004918AF /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				BFDD99F62B5D7ED1004918AF /* LabelsApp.swift */,
+				BFDD99F82B5D7ED1004918AF /* ContentView.swift */,
+				BFDD99FA2B5D7ED2004918AF /* Assets.xcassets */,
+				BFDD99FC2B5D7ED2004918AF /* Preview Content */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		BFDD99FC2B5D7ED2004918AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFDD99FD2B5D7ED2004918AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFDD9A022B5E240C004918AF /* 31.AdvancedMap */ = {
+			isa = PBXGroup;
+			children = (
+				BFD616C42B5E245F00E98762 /* AdvancedMap */,
+			);
+			path = 31.AdvancedMap;
 			sourceTree = "<group>";
 		};
 		BFE0E9E12B5256E30047A767 /* States */ = {
@@ -1352,6 +1527,10 @@
 				BF0E04172B5A8DF9001179AB /* 27.CustomModifiers */,
 				BF0E042A2B5ACCF9001179AB /* 28.CoolSwiftUICharts */,
 				BFBB8F272B5CE7C800C6BE97 /* 29.AppStorage */,
+				BFDD99EF2B5D7EBE004918AF /* 30.Labels */,
+				BFDD9A022B5E240C004918AF /* 31.AdvancedMap */,
+				BFD616CE2B5E50CF00E98762 /* 32.Gestures */,
+				BFD616E12B5E622400E98762 /* 33.InUIKit */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -1391,6 +1570,10 @@
 				BF0E041C2B5A8E1B001179AB /* CustomModifiers.app */,
 				BFF297BE2B5CD5F000EEBCDC /* CoolSwiftUICharts.app */,
 				BFBB8F2C2B5CE7E500C6BE97 /* AppStorage.app */,
+				BFDD99F42B5D7ED1004918AF /* Labels.app */,
+				BFDD9A072B5E2439004918AF /* AdvancedMap.app */,
+				BFD616D32B5E50DD00E98762 /* Gestures.app */,
+				BFD616E62B5E623A00E98762 /* InUIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1936,6 +2119,40 @@
 			productReference = BFD5FCFA2B39A5B70068F721 /* Widgets.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFD616D22B5E50DD00E98762 /* Gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD616DE2B5E50DE00E98762 /* Build configuration list for PBXNativeTarget "Gestures" */;
+			buildPhases = (
+				BFD616CF2B5E50DD00E98762 /* Sources */,
+				BFD616D02B5E50DD00E98762 /* Frameworks */,
+				BFD616D12B5E50DD00E98762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gestures;
+			productName = Gestures;
+			productReference = BFD616D32B5E50DD00E98762 /* Gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD616E52B5E623A00E98762 /* InUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD616F72B5E623B00E98762 /* Build configuration list for PBXNativeTarget "InUIKit" */;
+			buildPhases = (
+				BFD616E22B5E623A00E98762 /* Sources */,
+				BFD616E32B5E623A00E98762 /* Frameworks */,
+				BFD616E42B5E623A00E98762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InUIKit;
+			productName = InUIKit;
+			productReference = BFD616E62B5E623A00E98762 /* InUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFD6D5862B3ADA0800D66C90 /* WidgetsExampleExtensionExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD6D59C2B3ADA0900D66C90 /* Build configuration list for PBXNativeTarget "WidgetsExampleExtensionExtension" */;
@@ -1952,6 +2169,40 @@
 			productName = WidgetsExampleExtensionExtension;
 			productReference = BFD6D5872B3ADA0800D66C90 /* WidgetsExampleExtensionExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		BFDD99F32B5D7ED1004918AF /* Labels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDD99FF2B5D7ED2004918AF /* Build configuration list for PBXNativeTarget "Labels" */;
+			buildPhases = (
+				BFDD99F02B5D7ED1004918AF /* Sources */,
+				BFDD99F12B5D7ED1004918AF /* Frameworks */,
+				BFDD99F22B5D7ED1004918AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Labels;
+			productName = Labels;
+			productReference = BFDD99F42B5D7ED1004918AF /* Labels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFDD9A062B5E2439004918AF /* AdvancedMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDD9A122B5E243A004918AF /* Build configuration list for PBXNativeTarget "AdvancedMap" */;
+			buildPhases = (
+				BFDD9A032B5E2439004918AF /* Sources */,
+				BFDD9A042B5E2439004918AF /* Frameworks */,
+				BFDD9A052B5E2439004918AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvancedMap;
+			productName = AdvancedMap;
+			productReference = BFDD9A072B5E2439004918AF /* AdvancedMap.app */;
+			productType = "com.apple.product-type.application";
 		};
 		BFE0E9EF2B52C8380047A767 /* ExampleApp */ = {
 			isa = PBXNativeTarget;
@@ -2110,8 +2361,20 @@
 					BFD5FCF92B39A5B70068F721 = {
 						CreatedOnToolsVersion = 15.1;
 					};
+					BFD616D22B5E50DD00E98762 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BFD616E52B5E623A00E98762 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFD6D5862B3ADA0800D66C90 = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					BFDD99F32B5D7ED1004918AF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BFDD9A062B5E2439004918AF = {
+						CreatedOnToolsVersion = 15.2;
 					};
 					BFE0E9EF2B52C8380047A767 = {
 						CreatedOnToolsVersion = 15.2;
@@ -2180,6 +2443,10 @@
 				BF0E041B2B5A8E1B001179AB /* CustomModifiers */,
 				BFF297BD2B5CD5F000EEBCDC /* CoolSwiftUICharts */,
 				BFBB8F2B2B5CE7E500C6BE97 /* AppStorage */,
+				BFDD99F32B5D7ED1004918AF /* Labels */,
+				BFDD9A062B5E2439004918AF /* AdvancedMap */,
+				BFD616D22B5E50DD00E98762 /* Gestures */,
+				BFD616E52B5E623A00E98762 /* InUIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -2418,11 +2685,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFD616D12B5E50DD00E98762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD616DD2B5E50DE00E98762 /* Preview Assets.xcassets in Resources */,
+				BFD616DA2B5E50DE00E98762 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD616E42B5E623A00E98762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD616F52B5E623B00E98762 /* LaunchScreen.storyboard in Resources */,
+				BFD616F22B5E623B00E98762 /* Assets.xcassets in Resources */,
+				BFD616F02B5E623A00E98762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFD6D5852B3ADA0800D66C90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BFD6D5972B3ADA0900D66C90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDD99F22B5D7ED1004918AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDD99FE2B5D7ED2004918AF /* Preview Assets.xcassets in Resources */,
+				BFDD99FB2B5D7ED2004918AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDD9A052B5E2439004918AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD616CB2B5E245F00E98762 /* Preview Assets.xcassets in Resources */,
+				BFD616CA2B5E245F00E98762 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2698,6 +3002,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFD616CF2B5E50DD00E98762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD616D82B5E50DD00E98762 /* ContentView.swift in Sources */,
+				BFD616D62B5E50DD00E98762 /* GesturesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD616E22B5E623A00E98762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD616FD2B5E667000E98762 /* SettingScreen.swift in Sources */,
+				BFD616ED2B5E623A00E98762 /* ViewController.swift in Sources */,
+				BFD616E92B5E623A00E98762 /* AppDelegate.swift in Sources */,
+				BFD616EB2B5E623A00E98762 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFD6D5832B3ADA0800D66C90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2706,6 +3030,24 @@
 				BFD6D5952B3ADA0800D66C90 /* AppIntent.swift in Sources */,
 				BFD6D5932B3ADA0800D66C90 /* WidgetsExampleExtension.swift in Sources */,
 				BFD6D5912B3ADA0800D66C90 /* WidgetsExampleExtensionLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDD99F02B5D7ED1004918AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDD99F92B5D7ED1004918AF /* ContentView.swift in Sources */,
+				BFDD99F72B5D7ED1004918AF /* LabelsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDD9A032B5E2439004918AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD616CD2B5E245F00E98762 /* AdvancedMapApp.swift in Sources */,
+				BFD616CC2B5E245F00E98762 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2757,6 +3099,25 @@
 			targetProxy = BFD6D5992B3ADA0900D66C90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFD616EE2B5E623A00E98762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD616EF2B5E623A00E98762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD616F32B5E623B00E98762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD616F42B5E623B00E98762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BF0288EB2B53BA330044F23E /* Debug */ = {
@@ -4273,6 +4634,124 @@
 			};
 			name = Release;
 		};
+		BFD616DF2B5E50DE00E98762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"32.Gestures/Gestures/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.Gestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFD616E02B5E50DE00E98762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"32.Gestures/Gestures/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.Gestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFD616F82B5E623B00E98762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 33.InUIKit/InUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.InUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFD616F92B5E623B00E98762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 33.InUIKit/InUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.InUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BFD6D59D2B3ADA0900D66C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4323,6 +4802,126 @@
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.Widgets.WidgetsExampleExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFDD9A002B5D7ED2004918AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"30.Labels/Labels/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.Labels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFDD9A012B5D7ED2004918AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"30.Labels/Labels/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.Labels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFDD9A132B5E243A004918AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"31.AdvancedMap/AdvancedMap/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AdvancedMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFDD9A142B5E243A004918AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"31.AdvancedMap/AdvancedMap/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AdvancedMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4925,11 +5524,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BFD616DE2B5E50DE00E98762 /* Build configuration list for PBXNativeTarget "Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD616DF2B5E50DE00E98762 /* Debug */,
+				BFD616E02B5E50DE00E98762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD616F72B5E623B00E98762 /* Build configuration list for PBXNativeTarget "InUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD616F82B5E623B00E98762 /* Debug */,
+				BFD616F92B5E623B00E98762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BFD6D59C2B3ADA0900D66C90 /* Build configuration list for PBXNativeTarget "WidgetsExampleExtensionExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFD6D59D2B3ADA0900D66C90 /* Debug */,
 				BFD6D59E2B3ADA0900D66C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDD99FF2B5D7ED2004918AF /* Build configuration list for PBXNativeTarget "Labels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDD9A002B5D7ED2004918AF /* Debug */,
+				BFDD9A012B5D7ED2004918AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDD9A122B5E243A004918AF /* Build configuration list for PBXNativeTarget "AdvancedMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDD9A132B5E243A004918AF /* Debug */,
+				BFDD9A142B5E243A004918AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
