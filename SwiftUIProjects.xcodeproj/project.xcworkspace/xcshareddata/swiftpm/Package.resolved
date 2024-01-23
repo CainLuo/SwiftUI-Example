@@ -55,6 +55,15 @@
       }
     },
     {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX",
+      "state" : {
+        "revision" : "a5a22a1aaca885c229f475af049d75a6d9144de8",
+        "version" : "0.1.9"
+      }
+    },
+    {
       "identity" : "swurl",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/cmtrounce/SwURL",

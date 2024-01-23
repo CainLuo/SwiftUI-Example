@@ -93,6 +93,11 @@
 		BFA27F0C2B54048D00CCB908 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA27F0B2B54048D00CCB908 /* LottieView.swift */; };
 		BFA27F0F2B54055E00CCB908 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BFA27F0E2B54055E00CCB908 /* Lottie */; };
 		BFA27F112B54082600CCB908 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = BFA27F102B54082600CCB908 /* loading.json */; };
+		BFA9DEC52B601CDC00BBB06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9DEC02B601CDB00BBB06B /* Assets.xcassets */; };
+		BFA9DEC62B601CDC00BBB06B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9DEC22B601CDB00BBB06B /* Preview Assets.xcassets */; };
+		BFA9DEC72B601CDC00BBB06B /* SecretsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DEC32B601CDB00BBB06B /* SecretsApp.swift */; };
+		BFA9DEC82B601CDC00BBB06B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DEC42B601CDB00BBB06B /* ContentView.swift */; };
+		BFA9DECB2B601D3D00BBB06B /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = BFA9DECA2B601D3D00BBB06B /* SwiftUIX */; };
 		BFBA41432B39A5D800C16314 /* WidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA413E2B39A5D800C16314 /* WidgetsApp.swift */; };
 		BFBA41442B39A5D800C16314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA413F2B39A5D800C16314 /* Assets.xcassets */; };
 		BFBA41452B39A5D800C16314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA41412B39A5D800C16314 /* Preview Assets.xcassets */; };
@@ -338,6 +343,7 @@
 		BF914E522B5FBD7E0009B3B0 /* CustomTabBarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarApp.swift; sourceTree = "<group>"; };
 		BF914E532B5FBD7E0009B3B0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF9354B22B5A786900586891 /* WeatherMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA200C12B601CBE007B5AE0 /* Secrets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secrets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA27EEE2B53C94F00CCB908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA27EF02B53C94F00CCB908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFA27EF12B53C94F00CCB908 /* TabBarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarApp.swift; sourceTree = "<group>"; };
@@ -350,6 +356,10 @@
 		BFA27F0B2B54048D00CCB908 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		BFA27F102B54082600CCB908 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		BFA27F172B54119100CCB908 /* DownloadImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA9DEC02B601CDB00BBB06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA9DEC22B601CDB00BBB06B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA9DEC32B601CDB00BBB06B /* SecretsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretsApp.swift; sourceTree = "<group>"; };
+		BFA9DEC42B601CDB00BBB06B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFBA413E2B39A5D800C16314 /* WidgetsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetsApp.swift; sourceTree = "<group>"; };
 		BFBA413F2B39A5D800C16314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBA41412B39A5D800C16314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -590,6 +600,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA200BE2B601CBE007B5AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9DECB2B601D3D00BBB06B /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1220,6 +1238,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BF914E582B601C760009B3B0 /* 41.Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9DEBF2B601CDB00BBB06B /* Secrets */,
+			);
+			path = 41.Secrets;
+			sourceTree = "<group>";
+		};
 		BF9354AD2B5A785200586891 /* 26.WeatherMVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -1282,6 +1308,25 @@
 				BF52FC832B5411AA00DBCF36 /* DownloadImage */,
 			);
 			path = 18.DownloadImage;
+			sourceTree = "<group>";
+		};
+		BFA9DEBF2B601CDB00BBB06B /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9DEC02B601CDB00BBB06B /* Assets.xcassets */,
+				BFA9DEC12B601CDB00BBB06B /* Preview Content */,
+				BFA9DEC32B601CDB00BBB06B /* SecretsApp.swift */,
+				BFA9DEC42B601CDB00BBB06B /* ContentView.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
+		BFA9DEC12B601CDB00BBB06B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9DEC22B601CDB00BBB06B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		BFBA413D2B39A5D800C16314 /* Widgets */ = {
@@ -1839,6 +1884,7 @@
 				BFC33A682B5F9A0C005D5B68 /* 38.Calculator */,
 				BFC33A7B2B5FB520005D5B68 /* 39.Menus */,
 				BFC33A8E2B5FBD37005D5B68 /* 40.CustomTabBar */,
+				BF914E582B601C760009B3B0 /* 41.Secrets */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -1889,6 +1935,7 @@
 				BFC33A6D2B5F9A14005D5B68 /* Calculator.app */,
 				BFC33A802B5FB531005D5B68 /* Menus.app */,
 				BFC33A932B5FBD48005D5B68 /* CustomTabBar.app */,
+				BFA200C12B601CBE007B5AE0 /* Secrets.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2262,6 +2309,26 @@
 			name = WeatherMVVM;
 			productName = WeatherMVVM;
 			productReference = BF9354B22B5A786900586891 /* WeatherMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA200C02B601CBE007B5AE0 /* Secrets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA200CC2B601CBF007B5AE0 /* Build configuration list for PBXNativeTarget "Secrets" */;
+			buildPhases = (
+				BFA200BD2B601CBE007B5AE0 /* Sources */,
+				BFA200BE2B601CBE007B5AE0 /* Frameworks */,
+				BFA200BF2B601CBE007B5AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Secrets;
+			packageProductDependencies = (
+				BFA9DECA2B601D3D00BBB06B /* SwiftUIX */,
+			);
+			productName = Secrets;
+			productReference = BFA200C12B601CBE007B5AE0 /* Secrets.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BFA27EFB2B53F81E00CCB908 /* LottieAnimations */ = {
@@ -2768,6 +2835,9 @@
 					BF9354B12B5A786900586891 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFA200C02B601CBE007B5AE0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFA27EFB2B53F81E00CCB908 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -2862,6 +2932,7 @@
 				BFD34C1C2B54E022005C0062 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
 				BFD34C322B54E878005C0062 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
 				BFD34C352B54F515005C0062 /* XCRemoteSwiftPackageReference "PopupView" */,
+				BFA9DEC92B601D3D00BBB06B /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 			);
 			productRefGroup = BFE70B272B2CBF510077FB17 /* Products */;
 			projectDirPath = "";
@@ -2909,6 +2980,7 @@
 				BFC33A6C2B5F9A14005D5B68 /* Calculator */,
 				BFC33A7F2B5FB531005D5B68 /* Menus */,
 				BFC33A922B5FBD48005D5B68 /* CustomTabBar */,
+				BFA200C02B601CBE007B5AE0 /* Secrets */,
 			);
 		};
 /* End PBXProject section */
@@ -3064,6 +3136,15 @@
 			files = (
 				BF0E04102B5A787F001179AB /* Preview Assets.xcassets in Resources */,
 				BF0E040F2B5A787F001179AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA200BF2B601CBE007B5AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9DEC62B601CDC00BBB06B /* Preview Assets.xcassets in Resources */,
+				BFA9DEC52B601CDC00BBB06B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3451,6 +3532,15 @@
 				BF0E04122B5A787F001179AB /* ContentView.swift in Sources */,
 				BF0E04162B5A7952001179AB /* ViewModel.swift in Sources */,
 				BF0E04112B5A787F001179AB /* WeatherMVVMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA200BD2B601CBE007B5AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9DEC82B601CDC00BBB06B /* ContentView.swift in Sources */,
+				BFA9DEC72B601CDC00BBB06B /* SecretsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4707,6 +4797,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.WeatherMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFA200CD2B601CBF007B5AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"41.Secrets/Secrets/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.Secrets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA200CE2B601CBF007B5AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"41.Secrets/Secrets/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.Secrets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -6451,6 +6601,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BFA200CC2B601CBF007B5AE0 /* Build configuration list for PBXNativeTarget "Secrets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA200CD2B601CBF007B5AE0 /* Debug */,
+				BFA200CE2B601CBF007B5AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BFA27F072B53F81F00CCB908 /* Build configuration list for PBXNativeTarget "LottieAnimations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -6712,6 +6871,14 @@
 				minimumVersion = 4.3.4;
 			};
 		};
+		BFA9DEC92B601D3D00BBB06B /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.9;
+			};
+		};
 		BFD34C1C2B54E022005C0062 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/exyte/ActivityIndicatorView";
@@ -6761,6 +6928,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BFA27F0D2B54055E00CCB908 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		BFA9DECA2B601D3D00BBB06B /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA9DEC92B601D3D00BBB06B /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
 		};
 		BFD34C1D2B54E022005C0062 /* ActivityIndicatorView */ = {
 			isa = XCSwiftPackageProductDependency;
