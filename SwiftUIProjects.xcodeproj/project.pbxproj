@@ -78,6 +78,10 @@
 		BF6ECC542B51A322007D3786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6ECC532B51A322007D3786 /* ContentView.swift */; };
 		BF6ECC562B51A322007D3786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6ECC552B51A322007D3786 /* Assets.xcassets */; };
 		BF6ECC592B51A322007D3786 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6ECC582B51A322007D3786 /* Preview Assets.xcassets */; };
+		BF914E542B5FBD7E0009B3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF914E4F2B5FBD7E0009B3B0 /* Assets.xcassets */; };
+		BF914E552B5FBD7E0009B3B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF914E512B5FBD7E0009B3B0 /* Preview Assets.xcassets */; };
+		BF914E562B5FBD7E0009B3B0 /* CustomTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF914E522B5FBD7E0009B3B0 /* CustomTabBarApp.swift */; };
+		BF914E572B5FBD7E0009B3B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF914E532B5FBD7E0009B3B0 /* ContentView.swift */; };
 		BFA27EF32B53C94F00CCB908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA27EEE2B53C94F00CCB908 /* Assets.xcassets */; };
 		BFA27EF42B53C94F00CCB908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA27EF02B53C94F00CCB908 /* Preview Assets.xcassets */; };
 		BFA27EF52B53C94F00CCB908 /* TabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA27EF12B53C94F00CCB908 /* TabBarApp.swift */; };
@@ -329,6 +333,10 @@
 		BF6ECC552B51A322007D3786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF6ECC582B51A322007D3786 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF6ECC622B5255F5007D3786 /* States.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = States.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF914E4F2B5FBD7E0009B3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF914E512B5FBD7E0009B3B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF914E522B5FBD7E0009B3B0 /* CustomTabBarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarApp.swift; sourceTree = "<group>"; };
+		BF914E532B5FBD7E0009B3B0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF9354B22B5A786900586891 /* WeatherMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA27EEE2B53C94F00CCB908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA27EF02B53C94F00CCB908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -372,6 +380,7 @@
 		BFC33A842B5FB532005D5B68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFC33A862B5FB533005D5B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC33A892B5FB533005D5B68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFC33A932B5FBD48005D5B68 /* CustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD34C132B54DA93005C0062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD34C152B54DA93005C0062 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFD34C162B54DA93005C0062 /* ActivityIndicatorApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorApp.swift; sourceTree = "<group>"; };
@@ -629,6 +638,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC33A7D2B5FB531005D5B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC33A902B5FBD48005D5B68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1185,6 +1201,25 @@
 			path = 13.States;
 			sourceTree = "<group>";
 		};
+		BF914E4E2B5FBD7E0009B3B0 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BF914E4F2B5FBD7E0009B3B0 /* Assets.xcassets */,
+				BF914E502B5FBD7E0009B3B0 /* Preview Content */,
+				BF914E522B5FBD7E0009B3B0 /* CustomTabBarApp.swift */,
+				BF914E532B5FBD7E0009B3B0 /* ContentView.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		BF914E502B5FBD7E0009B3B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF914E512B5FBD7E0009B3B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BF9354AD2B5A785200586891 /* 26.WeatherMVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -1408,6 +1443,14 @@
 				BFC33A892B5FB533005D5B68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFC33A8E2B5FBD37005D5B68 /* 40.CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BF914E4E2B5FBD7E0009B3B0 /* CustomTabBar */,
+			);
+			path = 40.CustomTabBar;
 			sourceTree = "<group>";
 		};
 		BFD34C122B54DA93005C0062 /* ActivityIndicator */ = {
@@ -1795,6 +1838,7 @@
 				BFC33A552B5F8ACE005D5B68 /* 37.DynamicList */,
 				BFC33A682B5F9A0C005D5B68 /* 38.Calculator */,
 				BFC33A7B2B5FB520005D5B68 /* 39.Menus */,
+				BFC33A8E2B5FBD37005D5B68 /* 40.CustomTabBar */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -1844,6 +1888,7 @@
 				BFC33A5A2B5F8AE8005D5B68 /* DynamicList.app */,
 				BFC33A6D2B5F9A14005D5B68 /* Calculator.app */,
 				BFC33A802B5FB531005D5B68 /* Menus.app */,
+				BFC33A932B5FBD48005D5B68 /* CustomTabBar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2361,6 +2406,23 @@
 			productReference = BFC33A802B5FB531005D5B68 /* Menus.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFC33A922B5FBD48005D5B68 /* CustomTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC33A9E2B5FBD4A005D5B68 /* Build configuration list for PBXNativeTarget "CustomTabBar" */;
+			buildPhases = (
+				BFC33A8F2B5FBD48005D5B68 /* Sources */,
+				BFC33A902B5FBD48005D5B68 /* Frameworks */,
+				BFC33A912B5FBD48005D5B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTabBar;
+			productName = CustomTabBar;
+			productReference = BFC33A932B5FBD48005D5B68 /* CustomTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFD34C232B54E797005C0062 /* CoolIcons */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD34C2F2B54E799005C0062 /* Build configuration list for PBXNativeTarget "CoolIcons" */;
@@ -2730,6 +2792,9 @@
 					BFC33A7F2B5FB531005D5B68 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFC33A922B5FBD48005D5B68 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFD34C232B54E797005C0062 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -2843,6 +2908,7 @@
 				BFC33A592B5F8AE8005D5B68 /* DynamicList */,
 				BFC33A6C2B5F9A14005D5B68 /* Calculator */,
 				BFC33A7F2B5FB531005D5B68 /* Menus */,
+				BFC33A922B5FBD48005D5B68 /* CustomTabBar */,
 			);
 		};
 /* End PBXProject section */
@@ -3069,6 +3135,15 @@
 			files = (
 				BFC33A8A2B5FB533005D5B68 /* Preview Assets.xcassets in Resources */,
 				BFC33A872B5FB533005D5B68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC33A912B5FBD48005D5B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF914E552B5FBD7E0009B3B0 /* Preview Assets.xcassets in Resources */,
+				BF914E542B5FBD7E0009B3B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3440,6 +3515,15 @@
 			files = (
 				BFC33A852B5FB532005D5B68 /* ContentView.swift in Sources */,
 				BFC33A832B5FB532005D5B68 /* MenusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC33A8F2B5FBD48005D5B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF914E572B5FBD7E0009B3B0 /* ContentView.swift in Sources */,
+				BF914E562B5FBD7E0009B3B0 /* CustomTabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5078,6 +5162,66 @@
 			};
 			name = Release;
 		};
+		BFC33A9F2B5FBD4A005D5B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"40.CustomTabBar/CustomTabBar/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.CustomTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC33AA02B5FBD4A005D5B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"40.CustomTabBar/CustomTabBar/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.CustomTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BFD34C302B54E799005C0062 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6375,6 +6519,15 @@
 			buildConfigurations = (
 				BFC33A8C2B5FB533005D5B68 /* Debug */,
 				BFC33A8D2B5FB533005D5B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC33A9E2B5FBD4A005D5B68 /* Build configuration list for PBXNativeTarget "CustomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC33A9F2B5FBD4A005D5B68 /* Debug */,
+				BFC33AA02B5FBD4A005D5B68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
