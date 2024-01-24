@@ -98,6 +98,10 @@
 		BFA9DEC72B601CDC00BBB06B /* SecretsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DEC32B601CDB00BBB06B /* SecretsApp.swift */; };
 		BFA9DEC82B601CDC00BBB06B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DEC42B601CDB00BBB06B /* ContentView.swift */; };
 		BFA9DECB2B601D3D00BBB06B /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = BFA9DECA2B601D3D00BBB06B /* SwiftUIX */; };
+		BFA9DED42B61037000BBB06B /* GeometryReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DED32B61037000BBB06B /* GeometryReaderApp.swift */; };
+		BFA9DED62B61037000BBB06B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DED52B61037000BBB06B /* ContentView.swift */; };
+		BFA9DED82B61037200BBB06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9DED72B61037200BBB06B /* Assets.xcassets */; };
+		BFA9DEDB2B61037200BBB06B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9DEDA2B61037200BBB06B /* Preview Assets.xcassets */; };
 		BFBA41432B39A5D800C16314 /* WidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA413E2B39A5D800C16314 /* WidgetsApp.swift */; };
 		BFBA41442B39A5D800C16314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA413F2B39A5D800C16314 /* Assets.xcassets */; };
 		BFBA41452B39A5D800C16314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA41412B39A5D800C16314 /* Preview Assets.xcassets */; };
@@ -360,6 +364,11 @@
 		BFA9DEC22B601CDB00BBB06B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFA9DEC32B601CDB00BBB06B /* SecretsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretsApp.swift; sourceTree = "<group>"; };
 		BFA9DEC42B601CDB00BBB06B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFA9DED12B61037000BBB06B /* GeometryReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA9DED32B61037000BBB06B /* GeometryReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderApp.swift; sourceTree = "<group>"; };
+		BFA9DED52B61037000BBB06B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFA9DED72B61037200BBB06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA9DEDA2B61037200BBB06B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFBA413E2B39A5D800C16314 /* WidgetsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetsApp.swift; sourceTree = "<group>"; };
 		BFBA413F2B39A5D800C16314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBA41412B39A5D800C16314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -624,6 +633,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF52FC8F2B5414C500DBCF36 /* SwURL in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9DECE2B61037000BBB06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1329,6 +1345,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BFA9DECC2B61035D00BBB06B /* 42.GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9DED22B61037000BBB06B /* GeometryReader */,
+			);
+			path = 42.GeometryReader;
+			sourceTree = "<group>";
+		};
+		BFA9DED22B61037000BBB06B /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9DED32B61037000BBB06B /* GeometryReaderApp.swift */,
+				BFA9DED52B61037000BBB06B /* ContentView.swift */,
+				BFA9DED72B61037200BBB06B /* Assets.xcassets */,
+				BFA9DED92B61037200BBB06B /* Preview Content */,
+			);
+			path = GeometryReader;
+			sourceTree = "<group>";
+		};
+		BFA9DED92B61037200BBB06B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9DEDA2B61037200BBB06B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BFBA413D2B39A5D800C16314 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
@@ -1885,6 +1928,7 @@
 				BFC33A7B2B5FB520005D5B68 /* 39.Menus */,
 				BFC33A8E2B5FBD37005D5B68 /* 40.CustomTabBar */,
 				BF914E582B601C760009B3B0 /* 41.Secrets */,
+				BFA9DECC2B61035D00BBB06B /* 42.GeometryReader */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -1936,6 +1980,7 @@
 				BFC33A802B5FB531005D5B68 /* Menus.app */,
 				BFC33A932B5FBD48005D5B68 /* CustomTabBar.app */,
 				BFA200C12B601CBE007B5AE0 /* Secrets.app */,
+				BFA9DED12B61037000BBB06B /* GeometryReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2369,6 +2414,23 @@
 			);
 			productName = DownloadImage;
 			productReference = BFA27F172B54119100CCB908 /* DownloadImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA9DED02B61037000BBB06B /* GeometryReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA9DEDC2B61037200BBB06B /* Build configuration list for PBXNativeTarget "GeometryReader" */;
+			buildPhases = (
+				BFA9DECD2B61037000BBB06B /* Sources */,
+				BFA9DECE2B61037000BBB06B /* Frameworks */,
+				BFA9DECF2B61037000BBB06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryReader;
+			productName = GeometryReader;
+			productReference = BFA9DED12B61037000BBB06B /* GeometryReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BFBB8F2B2B5CE7E500C6BE97 /* AppStorage */ = {
@@ -2844,6 +2906,9 @@
 					BFA27F162B54119100CCB908 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFA9DED02B61037000BBB06B = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFBB8F2B2B5CE7E500C6BE97 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -2981,6 +3046,7 @@
 				BFC33A7F2B5FB531005D5B68 /* Menus */,
 				BFC33A922B5FBD48005D5B68 /* CustomTabBar */,
 				BFA200C02B601CBE007B5AE0 /* Secrets */,
+				BFA9DED02B61037000BBB06B /* GeometryReader */,
 			);
 		};
 /* End PBXProject section */
@@ -3164,6 +3230,15 @@
 			files = (
 				BF52FC8A2B5411AA00DBCF36 /* Preview Assets.xcassets in Resources */,
 				BF52FC892B5411AA00DBCF36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9DECF2B61037000BBB06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9DEDB2B61037200BBB06B /* Preview Assets.xcassets in Resources */,
+				BFA9DED82B61037200BBB06B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3560,6 +3635,15 @@
 			files = (
 				BF52FC8B2B5411AA00DBCF36 /* ContentView.swift in Sources */,
 				BF52FC8C2B5411AA00DBCF36 /* DownloadImageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9DECD2B61037000BBB06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9DED62B61037000BBB06B /* ContentView.swift in Sources */,
+				BFA9DED42B61037000BBB06B /* GeometryReaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4977,6 +5061,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.DownloadImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFA9DEDD2B61037200BBB06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"42.GeometryReader/GeometryReader/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.GeometryReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA9DEDE2B61037200BBB06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"42.GeometryReader/GeometryReader/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.GeometryReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -6624,6 +6768,15 @@
 			buildConfigurations = (
 				BFA27F232B54119200CCB908 /* Debug */,
 				BFA27F242B54119200CCB908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA9DEDC2B61037200BBB06B /* Build configuration list for PBXNativeTarget "GeometryReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA9DEDD2B61037200BBB06B /* Debug */,
+				BFA9DEDE2B61037200BBB06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
