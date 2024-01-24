@@ -93,6 +93,10 @@
 		BFA27F0C2B54048D00CCB908 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA27F0B2B54048D00CCB908 /* LottieView.swift */; };
 		BFA27F0F2B54055E00CCB908 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BFA27F0E2B54055E00CCB908 /* Lottie */; };
 		BFA27F112B54082600CCB908 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = BFA27F102B54082600CCB908 /* loading.json */; };
+		BFA2CF9C2B61281400C4202D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA2CF972B61281400C4202D /* Assets.xcassets */; };
+		BFA2CF9D2B61281400C4202D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA2CF992B61281400C4202D /* Preview Assets.xcassets */; };
+		BFA2CF9E2B61281400C4202D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2CF9A2B61281400C4202D /* ContentView.swift */; };
+		BFA2CF9F2B61281400C4202D /* DisclosureGroupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2CF9B2B61281400C4202D /* DisclosureGroupApp.swift */; };
 		BFA9DEC52B601CDC00BBB06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9DEC02B601CDB00BBB06B /* Assets.xcassets */; };
 		BFA9DEC62B601CDC00BBB06B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9DEC22B601CDB00BBB06B /* Preview Assets.xcassets */; };
 		BFA9DEC72B601CDC00BBB06B /* SecretsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DEC32B601CDB00BBB06B /* SecretsApp.swift */; };
@@ -360,6 +364,10 @@
 		BFA27F0B2B54048D00CCB908 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		BFA27F102B54082600CCB908 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		BFA27F172B54119100CCB908 /* DownloadImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA2CF972B61281400C4202D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA2CF992B61281400C4202D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA2CF9A2B61281400C4202D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFA2CF9B2B61281400C4202D /* DisclosureGroupApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclosureGroupApp.swift; sourceTree = "<group>"; };
 		BFA9DEC02B601CDB00BBB06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA9DEC22B601CDB00BBB06B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFA9DEC32B601CDB00BBB06B /* SecretsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretsApp.swift; sourceTree = "<group>"; };
@@ -369,6 +377,7 @@
 		BFA9DED52B61037000BBB06B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFA9DED72B61037200BBB06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA9DEDA2B61037200BBB06B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA9DEE42B6127D900BBB06B /* DisclosureGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisclosureGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBA413E2B39A5D800C16314 /* WidgetsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetsApp.swift; sourceTree = "<group>"; };
 		BFBA413F2B39A5D800C16314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBA41412B39A5D800C16314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -637,6 +646,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFA9DECE2B61037000BBB06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9DEE12B6127D900BBB06B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1326,6 +1342,25 @@
 			path = 18.DownloadImage;
 			sourceTree = "<group>";
 		};
+		BFA2CF962B61281400C4202D /* DisclosureGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BFA2CF972B61281400C4202D /* Assets.xcassets */,
+				BFA2CF982B61281400C4202D /* Preview Content */,
+				BFA2CF9A2B61281400C4202D /* ContentView.swift */,
+				BFA2CF9B2B61281400C4202D /* DisclosureGroupApp.swift */,
+			);
+			path = DisclosureGroup;
+			sourceTree = "<group>";
+		};
+		BFA2CF982B61281400C4202D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFA2CF992B61281400C4202D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BFA9DEBF2B601CDB00BBB06B /* Secrets */ = {
 			isa = PBXGroup;
 			children = (
@@ -1370,6 +1405,14 @@
 				BFA9DEDA2B61037200BBB06B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFA9DEDF2B6127CC00BBB06B /* 43.DisclosureGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BFA2CF962B61281400C4202D /* DisclosureGroup */,
+			);
+			path = 43.DisclosureGroup;
 			sourceTree = "<group>";
 		};
 		BFBA413D2B39A5D800C16314 /* Widgets */ = {
@@ -1929,6 +1972,7 @@
 				BFC33A8E2B5FBD37005D5B68 /* 40.CustomTabBar */,
 				BF914E582B601C760009B3B0 /* 41.Secrets */,
 				BFA9DECC2B61035D00BBB06B /* 42.GeometryReader */,
+				BFA9DEDF2B6127CC00BBB06B /* 43.DisclosureGroup */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -1981,6 +2025,7 @@
 				BFC33A932B5FBD48005D5B68 /* CustomTabBar.app */,
 				BFA200C12B601CBE007B5AE0 /* Secrets.app */,
 				BFA9DED12B61037000BBB06B /* GeometryReader.app */,
+				BFA9DEE42B6127D900BBB06B /* DisclosureGroup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2431,6 +2476,23 @@
 			name = GeometryReader;
 			productName = GeometryReader;
 			productReference = BFA9DED12B61037000BBB06B /* GeometryReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA9DEE32B6127D900BBB06B /* DisclosureGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA9DEEF2B6127DA00BBB06B /* Build configuration list for PBXNativeTarget "DisclosureGroup" */;
+			buildPhases = (
+				BFA9DEE02B6127D900BBB06B /* Sources */,
+				BFA9DEE12B6127D900BBB06B /* Frameworks */,
+				BFA9DEE22B6127D900BBB06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisclosureGroup;
+			productName = DisclosureGroup;
+			productReference = BFA9DEE42B6127D900BBB06B /* DisclosureGroup.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BFBB8F2B2B5CE7E500C6BE97 /* AppStorage */ = {
@@ -2909,6 +2971,9 @@
 					BFA9DED02B61037000BBB06B = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFA9DEE32B6127D900BBB06B = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFBB8F2B2B5CE7E500C6BE97 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -3047,6 +3112,7 @@
 				BFC33A922B5FBD48005D5B68 /* CustomTabBar */,
 				BFA200C02B601CBE007B5AE0 /* Secrets */,
 				BFA9DED02B61037000BBB06B /* GeometryReader */,
+				BFA9DEE32B6127D900BBB06B /* DisclosureGroup */,
 			);
 		};
 /* End PBXProject section */
@@ -3239,6 +3305,15 @@
 			files = (
 				BFA9DEDB2B61037200BBB06B /* Preview Assets.xcassets in Resources */,
 				BFA9DED82B61037200BBB06B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9DEE22B6127D900BBB06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA2CF9D2B61281400C4202D /* Preview Assets.xcassets in Resources */,
+				BFA2CF9C2B61281400C4202D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3644,6 +3719,15 @@
 			files = (
 				BFA9DED62B61037000BBB06B /* ContentView.swift in Sources */,
 				BFA9DED42B61037000BBB06B /* GeometryReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9DEE02B6127D900BBB06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA2CF9F2B61281400C4202D /* DisclosureGroupApp.swift in Sources */,
+				BFA2CF9E2B61281400C4202D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5121,6 +5205,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.GeometryReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFA9DEF02B6127DA00BBB06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"43.DisclosureGroup/DisclosureGroup/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.DisclosureGroup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA9DEF12B6127DA00BBB06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"43.DisclosureGroup/DisclosureGroup/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.DisclosureGroup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -6777,6 +6921,15 @@
 			buildConfigurations = (
 				BFA9DEDD2B61037200BBB06B /* Debug */,
 				BFA9DEDE2B61037200BBB06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA9DEEF2B6127DA00BBB06B /* Build configuration list for PBXNativeTarget "DisclosureGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA9DEF02B6127DA00BBB06B /* Debug */,
+				BFA9DEF12B6127DA00BBB06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
