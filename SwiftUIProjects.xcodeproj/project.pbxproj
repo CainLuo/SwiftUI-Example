@@ -101,6 +101,10 @@
 		BFA2CFAA2B616DEE00C4202D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2CFA92B616DEE00C4202D /* ContentView.swift */; };
 		BFA2CFAC2B616DEF00C4202D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA2CFAB2B616DEF00C4202D /* Assets.xcassets */; };
 		BFA2CFAF2B616DEF00C4202D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA2CFAE2B616DEF00C4202D /* Preview Assets.xcassets */; };
+		BFA2CFBB2B6285B600C4202D /* AccessibilityTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2CFBA2B6285B600C4202D /* AccessibilityTutorialApp.swift */; };
+		BFA2CFBD2B6285B600C4202D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2CFBC2B6285B600C4202D /* ContentView.swift */; };
+		BFA2CFBF2B6285B700C4202D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA2CFBE2B6285B700C4202D /* Assets.xcassets */; };
+		BFA2CFC22B6285B700C4202D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA2CFC12B6285B700C4202D /* Preview Assets.xcassets */; };
 		BFA9DEC52B601CDC00BBB06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9DEC02B601CDB00BBB06B /* Assets.xcassets */; };
 		BFA9DEC62B601CDC00BBB06B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9DEC22B601CDB00BBB06B /* Preview Assets.xcassets */; };
 		BFA9DEC72B601CDC00BBB06B /* SecretsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DEC32B601CDB00BBB06B /* SecretsApp.swift */; };
@@ -377,6 +381,11 @@
 		BFA2CFA92B616DEE00C4202D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFA2CFAB2B616DEF00C4202D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA2CFAE2B616DEF00C4202D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA2CFB82B6285B500C4202D /* AccessibilityTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessibilityTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA2CFBA2B6285B600C4202D /* AccessibilityTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTutorialApp.swift; sourceTree = "<group>"; };
+		BFA2CFBC2B6285B600C4202D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFA2CFBE2B6285B700C4202D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA2CFC12B6285B700C4202D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFA9DEC02B601CDB00BBB06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA9DEC22B601CDB00BBB06B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFA9DEC32B601CDB00BBB06B /* SecretsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretsApp.swift; sourceTree = "<group>"; };
@@ -655,6 +664,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFA2CFA22B616DEE00C4202D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA2CFB52B6285B500C4202D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1404,6 +1420,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BFA2CFB32B62855F00C4202D /* 45.AccessibilityTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				BFA2CFB92B6285B600C4202D /* AccessibilityTutorial */,
+			);
+			path = 45.AccessibilityTutorial;
+			sourceTree = "<group>";
+		};
+		BFA2CFB92B6285B600C4202D /* AccessibilityTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				BFA2CFBA2B6285B600C4202D /* AccessibilityTutorialApp.swift */,
+				BFA2CFBC2B6285B600C4202D /* ContentView.swift */,
+				BFA2CFBE2B6285B700C4202D /* Assets.xcassets */,
+				BFA2CFC02B6285B700C4202D /* Preview Content */,
+			);
+			path = AccessibilityTutorial;
+			sourceTree = "<group>";
+		};
+		BFA2CFC02B6285B700C4202D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFA2CFC12B6285B700C4202D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BFA9DEBF2B601CDB00BBB06B /* Secrets */ = {
 			isa = PBXGroup;
 			children = (
@@ -2017,6 +2060,7 @@
 				BFA9DECC2B61035D00BBB06B /* 42.GeometryReader */,
 				BFA9DEDF2B6127CC00BBB06B /* 43.DisclosureGroup */,
 				BFA2CFA02B616DDA00C4202D /* 44.BottomCard */,
+				BFA2CFB32B62855F00C4202D /* 45.AccessibilityTutorial */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -2071,6 +2115,7 @@
 				BFA9DED12B61037000BBB06B /* GeometryReader.app */,
 				BFA9DEE42B6127D900BBB06B /* DisclosureGroup.app */,
 				BFA2CFA52B616DEE00C4202D /* BottomCard.app */,
+				BFA2CFB82B6285B500C4202D /* AccessibilityTutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2521,6 +2566,23 @@
 			name = BottomCard;
 			productName = BottomCard;
 			productReference = BFA2CFA52B616DEE00C4202D /* BottomCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA2CFB72B6285B500C4202D /* AccessibilityTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA2CFC32B6285B700C4202D /* Build configuration list for PBXNativeTarget "AccessibilityTutorial" */;
+			buildPhases = (
+				BFA2CFB42B6285B500C4202D /* Sources */,
+				BFA2CFB52B6285B500C4202D /* Frameworks */,
+				BFA2CFB62B6285B500C4202D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccessibilityTutorial;
+			productName = AccessibilityTutorial;
+			productReference = BFA2CFB82B6285B500C4202D /* AccessibilityTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BFA9DED02B61037000BBB06B /* GeometryReader */ = {
@@ -3033,6 +3095,9 @@
 					BFA2CFA42B616DEE00C4202D = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFA2CFB72B6285B500C4202D = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFA9DED02B61037000BBB06B = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -3179,6 +3244,7 @@
 				BFA9DED02B61037000BBB06B /* GeometryReader */,
 				BFA9DEE32B6127D900BBB06B /* DisclosureGroup */,
 				BFA2CFA42B616DEE00C4202D /* BottomCard */,
+				BFA2CFB72B6285B500C4202D /* AccessibilityTutorial */,
 			);
 		};
 /* End PBXProject section */
@@ -3371,6 +3437,15 @@
 			files = (
 				BFA2CFAF2B616DEF00C4202D /* Preview Assets.xcassets in Resources */,
 				BFA2CFAC2B616DEF00C4202D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA2CFB62B6285B500C4202D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA2CFC22B6285B700C4202D /* Preview Assets.xcassets in Resources */,
+				BFA2CFBF2B6285B700C4202D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3794,6 +3869,15 @@
 			files = (
 				BFA2CFAA2B616DEE00C4202D /* ContentView.swift in Sources */,
 				BFA2CFA82B616DEE00C4202D /* BottomCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA2CFB42B6285B500C4202D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA2CFBD2B6285B600C4202D /* ContentView.swift in Sources */,
+				BFA2CFBB2B6285B600C4202D /* AccessibilityTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5289,6 +5373,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.BottomCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFA2CFC42B6285B700C4202D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"45.AccessibilityTutorial/AccessibilityTutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = K22U66A47Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AccessibilityTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA2CFC52B6285B700C4202D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"45.AccessibilityTutorial/AccessibilityTutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = K22U66A47Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AccessibilityTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -7065,6 +7209,15 @@
 			buildConfigurations = (
 				BFA2CFB12B616DEF00C4202D /* Debug */,
 				BFA2CFB22B616DEF00C4202D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA2CFC32B6285B700C4202D /* Build configuration list for PBXNativeTarget "AccessibilityTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA2CFC42B6285B700C4202D /* Debug */,
+				BFA2CFC52B6285B700C4202D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
