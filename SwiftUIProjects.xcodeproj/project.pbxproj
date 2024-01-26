@@ -1256,6 +1256,13 @@
 			path = 20.ActivityIndicator;
 			sourceTree = "<group>";
 		};
+		BF618DD02B62BA1E00A9C3A2 /* 47.FirebaseAuthExample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 47.FirebaseAuthExample;
+			sourceTree = "<group>";
+		};
 		BF6623D32B5903290068FC0F /* 24.DatePicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -2105,6 +2112,7 @@
 				BFA2CFA02B616DDA00C4202D /* 44.BottomCard */,
 				BFA2CFB32B62855F00C4202D /* 45.AccessibilityTutorial */,
 				BFA2CFC62B62A29300C4202D /* 46.CircleFillAnimation */,
+				BF618DD02B62BA1E00A9C3A2 /* 47.FirebaseAuthExample */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
