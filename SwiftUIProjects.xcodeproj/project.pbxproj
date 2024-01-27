@@ -38,6 +38,7 @@
 		BF23A1872B64082600E05AA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23A1862B64082600E05AA7 /* ContentView.swift */; };
 		BF23A1892B64082700E05AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF23A1882B64082700E05AA7 /* Assets.xcassets */; };
 		BF23A18C2B64082700E05AA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF23A18B2B64082700E05AA7 /* Preview Assets.xcassets */; };
+		BF23A1912B64F05200E05AA7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23A1902B64F05200E05AA7 /* OnboardingView.swift */; };
 		BF4BEA052B34A62800468687 /* GradientsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BEA042B34A62800468687 /* GradientsApp.swift */; };
 		BF4BEA072B34A62800468687 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BEA062B34A62800468687 /* ContentView.swift */; };
 		BF4BEA092B34A62900468687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4BEA082B34A62900468687 /* Assets.xcassets */; };
@@ -313,6 +314,7 @@
 		BF23A1862B64082600E05AA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF23A1882B64082700E05AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF23A18B2B64082700E05AA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF23A1902B64F05200E05AA7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		BF4BEA022B34A62800468687 /* Gradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4BEA042B34A62800468687 /* GradientsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsApp.swift; sourceTree = "<group>"; };
 		BF4BEA062B34A62800468687 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1055,6 +1057,7 @@
 			children = (
 				BF23A1842B64082600E05AA7 /* OnboardingUIApp.swift */,
 				BF23A1862B64082600E05AA7 /* ContentView.swift */,
+				BF23A1902B64F05200E05AA7 /* OnboardingView.swift */,
 				BF23A1882B64082700E05AA7 /* Assets.xcassets */,
 				BF23A18A2B64082700E05AA7 /* Preview Content */,
 			);
@@ -3872,6 +3875,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF23A1912B64F05200E05AA7 /* OnboardingView.swift in Sources */,
 				BF23A1872B64082600E05AA7 /* ContentView.swift in Sources */,
 				BF23A1852B64082600E05AA7 /* OnboardingUIApp.swift in Sources */,
 			);
