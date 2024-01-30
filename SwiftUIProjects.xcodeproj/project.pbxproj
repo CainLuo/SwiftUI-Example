@@ -73,6 +73,10 @@
 		BF4659AE2B68D10000587AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4659A92B68D10000587AD3 /* Assets.xcassets */; };
 		BF4659AF2B68D10000587AD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4659AB2B68D10000587AD3 /* Preview Assets.xcassets */; };
 		BF4659B02B68D10000587AD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4659AC2B68D10000587AD3 /* ContentView.swift */; };
+		BF4659B82B68E3FB00587AD3 /* BlurEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4659B72B68E3FB00587AD3 /* BlurEffectApp.swift */; };
+		BF4659BA2B68E3FB00587AD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4659B92B68E3FB00587AD3 /* ContentView.swift */; };
+		BF4659BC2B68E3FD00587AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4659BB2B68E3FD00587AD3 /* Assets.xcassets */; };
+		BF4659BF2B68E3FD00587AD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4659BE2B68E3FD00587AD3 /* Preview Assets.xcassets */; };
 		BF4BEA052B34A62800468687 /* GradientsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BEA042B34A62800468687 /* GradientsApp.swift */; };
 		BF4BEA072B34A62800468687 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BEA062B34A62800468687 /* ContentView.swift */; };
 		BF4BEA092B34A62900468687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4BEA082B34A62900468687 /* Assets.xcassets */; };
@@ -394,6 +398,11 @@
 		BF4659A92B68D10000587AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4659AB2B68D10000587AD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF4659AC2B68D10000587AD3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF4659B52B68E3FB00587AD3 /* BlurEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4659B72B68E3FB00587AD3 /* BlurEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectApp.swift; sourceTree = "<group>"; };
+		BF4659B92B68E3FB00587AD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF4659BB2B68E3FD00587AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF4659BE2B68E3FD00587AD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF4BEA022B34A62800468687 /* Gradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4BEA042B34A62800468687 /* GradientsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsApp.swift; sourceTree = "<group>"; };
 		BF4BEA062B34A62800468687 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -707,6 +716,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF3172372B669D0600625074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4659B22B68E3FB00587AD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1434,6 +1450,33 @@
 				BF4659AB2B68D10000587AD3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF4659B62B68E3FB00587AD3 /* BlurEffect */ = {
+			isa = PBXGroup;
+			children = (
+				BF4659B72B68E3FB00587AD3 /* BlurEffectApp.swift */,
+				BF4659B92B68E3FB00587AD3 /* ContentView.swift */,
+				BF4659BB2B68E3FD00587AD3 /* Assets.xcassets */,
+				BF4659BD2B68E3FD00587AD3 /* Preview Content */,
+			);
+			path = BlurEffect;
+			sourceTree = "<group>";
+		};
+		BF4659BD2B68E3FD00587AD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF4659BE2B68E3FD00587AD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF4659C32B68E40000587AD3 /* 57.BlurEffect */ = {
+			isa = PBXGroup;
+			children = (
+				BF4659B62B68E3FB00587AD3 /* BlurEffect */,
+			);
+			path = 57.BlurEffect;
 			sourceTree = "<group>";
 		};
 		BF4BE9FD2B34A60700468687 /* 6.Gradients */ = {
@@ -2560,6 +2603,7 @@
 				BF3172222B66967900625074 /* 54.ScaleMe */,
 				BF3172352B669CEB00625074 /* 55.RotationEffect */,
 				BFD5F0D42B68D0BA007DA821 /* 56.CustomShapes */,
+				BF4659C32B68E40000587AD3 /* 57.BlurEffect */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -2626,6 +2670,7 @@
 				BF3172272B66968D00625074 /* ScaleMe.app */,
 				BF31723A2B669D0600625074 /* RotationEffect.app */,
 				BFD5F0D92B68D0CE007DA821 /* CustomShapes.app */,
+				BF4659B52B68E3FB00587AD3 /* BlurEffect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2925,6 +2970,23 @@
 			name = RotationEffect;
 			productName = RotationEffect;
 			productReference = BF31723A2B669D0600625074 /* RotationEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF4659B42B68E3FB00587AD3 /* BlurEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4659C02B68E3FD00587AD3 /* Build configuration list for PBXNativeTarget "BlurEffect" */;
+			buildPhases = (
+				BF4659B12B68E3FB00587AD3 /* Sources */,
+				BF4659B22B68E3FB00587AD3 /* Frameworks */,
+				BF4659B32B68E3FB00587AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurEffect;
+			productName = BlurEffect;
+			productReference = BF4659B52B68E3FB00587AD3 /* BlurEffect.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BF4BEA012B34A62800468687 /* Gradients */ = {
@@ -3768,6 +3830,9 @@
 					BF3172392B669D0600625074 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BF4659B42B68E3FB00587AD3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BF4BEA012B34A62800468687 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -3986,6 +4051,7 @@
 				BF3172262B66968D00625074 /* ScaleMe */,
 				BF3172392B669D0600625074 /* RotationEffect */,
 				BFD5F0D82B68D0CE007DA821 /* CustomShapes */,
+				BF4659B42B68E3FB00587AD3 /* BlurEffect */,
 			);
 		};
 /* End PBXProject section */
@@ -4106,6 +4172,15 @@
 			files = (
 				BFD5F0D12B669D3E007DA821 /* Preview Assets.xcassets in Resources */,
 				BFD5F0D02B669D3E007DA821 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4659B32B68E3FB00587AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4659BF2B68E3FD00587AD3 /* Preview Assets.xcassets in Resources */,
+				BF4659BC2B68E3FD00587AD3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4630,6 +4705,15 @@
 			files = (
 				BFD5F0D32B669D3E007DA821 /* ContentView.swift in Sources */,
 				BFD5F0D22B669D3E007DA821 /* RotationEffectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4659B12B68E3FB00587AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4659BA2B68E3FB00587AD3 /* ContentView.swift in Sources */,
+				BF4659B82B68E3FB00587AD3 /* BlurEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5851,6 +5935,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.RotationEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF4659C12B68E3FD00587AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"57.BlurEffect/BlurEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.BlurEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF4659C22B68E3FD00587AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"57.BlurEffect/BlurEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.BlurEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -8741,6 +8885,15 @@
 			buildConfigurations = (
 				BF3172462B669D0E00625074 /* Debug */,
 				BF3172472B669D0E00625074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF4659C02B68E3FD00587AD3 /* Build configuration list for PBXNativeTarget "BlurEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4659C12B68E3FD00587AD3 /* Debug */,
+				BF4659C22B68E3FD00587AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
