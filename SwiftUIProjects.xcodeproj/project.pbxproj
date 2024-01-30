@@ -69,6 +69,10 @@
 		BF31722C2B66968D00625074 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF31722B2B66968D00625074 /* ContentView.swift */; };
 		BF31722E2B66968E00625074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF31722D2B66968E00625074 /* Assets.xcassets */; };
 		BF3172312B66968E00625074 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3172302B66968E00625074 /* Preview Assets.xcassets */; };
+		BF4659AD2B68D10000587AD3 /* CustomShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4659A82B68D10000587AD3 /* CustomShapesApp.swift */; };
+		BF4659AE2B68D10000587AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4659A92B68D10000587AD3 /* Assets.xcassets */; };
+		BF4659AF2B68D10000587AD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4659AB2B68D10000587AD3 /* Preview Assets.xcassets */; };
+		BF4659B02B68D10000587AD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4659AC2B68D10000587AD3 /* ContentView.swift */; };
 		BF4BEA052B34A62800468687 /* GradientsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BEA042B34A62800468687 /* GradientsApp.swift */; };
 		BF4BEA072B34A62800468687 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BEA062B34A62800468687 /* ContentView.swift */; };
 		BF4BEA092B34A62900468687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4BEA082B34A62900468687 /* Assets.xcassets */; };
@@ -386,6 +390,10 @@
 		BF31722D2B66968E00625074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF3172302B66968E00625074 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF31723A2B669D0600625074 /* RotationEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotationEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4659A82B68D10000587AD3 /* CustomShapesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShapesApp.swift; sourceTree = "<group>"; };
+		BF4659A92B68D10000587AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF4659AB2B68D10000587AD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF4659AC2B68D10000587AD3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF4BEA022B34A62800468687 /* Gradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4BEA042B34A62800468687 /* GradientsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsApp.swift; sourceTree = "<group>"; };
 		BF4BEA062B34A62800468687 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -536,6 +544,7 @@
 		BFD5F0CD2B669D3E007DA821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFD5F0CE2B669D3E007DA821 /* RotationEffectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationEffectApp.swift; sourceTree = "<group>"; };
 		BFD5F0CF2B669D3E007DA821 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFD5F0D92B68D0CE007DA821 /* CustomShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD5FCD62B37ED250068F721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD5FCD82B37ED250068F721 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFD5FCD92B37ED250068F721 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -911,6 +920,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD34C4A2B54F55C005C0062 /* PopupView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD5F0D62B68D0CE007DA821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1399,6 +1415,25 @@
 				BFD5F0CA2B669D3E007DA821 /* RotationEffect */,
 			);
 			path = 55.RotationEffect;
+			sourceTree = "<group>";
+		};
+		BF4659A72B68D10000587AD3 /* CustomShapes */ = {
+			isa = PBXGroup;
+			children = (
+				BF4659A82B68D10000587AD3 /* CustomShapesApp.swift */,
+				BF4659A92B68D10000587AD3 /* Assets.xcassets */,
+				BF4659AA2B68D10000587AD3 /* Preview Content */,
+				BF4659AC2B68D10000587AD3 /* ContentView.swift */,
+			);
+			path = CustomShapes;
+			sourceTree = "<group>";
+		};
+		BF4659AA2B68D10000587AD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF4659AB2B68D10000587AD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		BF4BE9FD2B34A60700468687 /* 6.Gradients */ = {
@@ -2187,6 +2222,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BFD5F0D42B68D0BA007DA821 /* 56.CustomShapes */ = {
+			isa = PBXGroup;
+			children = (
+				BF4659A72B68D10000587AD3 /* CustomShapes */,
+			);
+			path = 56.CustomShapes;
+			sourceTree = "<group>";
+		};
 		BFD5FCD52B37ED250068F721 /* Grids */ = {
 			isa = PBXGroup;
 			children = (
@@ -2516,6 +2559,7 @@
 				BF31720F2B66782100625074 /* 53.TapGesture */,
 				BF3172222B66967900625074 /* 54.ScaleMe */,
 				BF3172352B669CEB00625074 /* 55.RotationEffect */,
+				BFD5F0D42B68D0BA007DA821 /* 56.CustomShapes */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -2581,6 +2625,7 @@
 				BF3172142B66783400625074 /* TapGesture.app */,
 				BF3172272B66968D00625074 /* ScaleMe.app */,
 				BF31723A2B669D0600625074 /* RotationEffect.app */,
+				BFD5F0D92B68D0CE007DA821 /* CustomShapes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3413,6 +3458,23 @@
 			productReference = BFD34C3B2B54F531005C0062 /* Toasts.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFD5F0D82B68D0CE007DA821 /* CustomShapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD5F0E42B68D0CF007DA821 /* Build configuration list for PBXNativeTarget "CustomShapes" */;
+			buildPhases = (
+				BFD5F0D52B68D0CE007DA821 /* Sources */,
+				BFD5F0D62B68D0CE007DA821 /* Frameworks */,
+				BFD5F0D72B68D0CE007DA821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomShapes;
+			productName = CustomShapes;
+			productReference = BFD5F0D92B68D0CE007DA821 /* CustomShapes.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFD5FCE32B3805650068F721 /* Chart */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD5FCEF2B3805660068F721 /* Build configuration list for PBXNativeTarget "Chart" */;
@@ -3796,6 +3858,9 @@
 					BFD34C3A2B54F531005C0062 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFD5F0D82B68D0CE007DA821 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFD5FCE32B3805650068F721 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -3920,6 +3985,7 @@
 				BF3172132B66783400625074 /* TapGesture */,
 				BF3172262B66968D00625074 /* ScaleMe */,
 				BF3172392B669D0600625074 /* RotationEffect */,
+				BFD5F0D82B68D0CE007DA821 /* CustomShapes */,
 			);
 		};
 /* End PBXProject section */
@@ -4309,6 +4375,15 @@
 			files = (
 				BFD34C452B54F532005C0062 /* Preview Assets.xcassets in Resources */,
 				BFD34C422B54F532005C0062 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD5F0D72B68D0CE007DA821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4659AF2B68D10000587AD3 /* Preview Assets.xcassets in Resources */,
+				BF4659AE2B68D10000587AD3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4826,6 +4901,15 @@
 			files = (
 				BFD34C402B54F531005C0062 /* ContentView.swift in Sources */,
 				BFD34C3E2B54F531005C0062 /* ToastsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD5F0D52B68D0CE007DA821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4659B02B68D10000587AD3 /* ContentView.swift in Sources */,
+				BF4659AD2B68D10000587AD3 /* CustomShapesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7528,6 +7612,66 @@
 			};
 			name = Release;
 		};
+		BFD5F0E52B68D0CF007DA821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"56.CustomShapes/CustomShapes/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.CustomShapes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFD5F0E62B68D0CF007DA821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"56.CustomShapes/CustomShapes/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.CustomShapes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BFD5FCF02B3805660068F721 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -8867,6 +9011,15 @@
 			buildConfigurations = (
 				BFD34C472B54F532005C0062 /* Debug */,
 				BFD34C482B54F532005C0062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD5F0E42B68D0CF007DA821 /* Build configuration list for PBXNativeTarget "CustomShapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD5F0E52B68D0CF007DA821 /* Debug */,
+				BFD5F0E62B68D0CF007DA821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
