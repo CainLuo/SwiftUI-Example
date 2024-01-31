@@ -169,6 +169,10 @@
 		BFBB8F312B5CE7E500C6BE97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8F302B5CE7E500C6BE97 /* ContentView.swift */; };
 		BFBB8F332B5CE7E600C6BE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8F322B5CE7E600C6BE97 /* Assets.xcassets */; };
 		BFBB8F362B5CE7E600C6BE97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8F352B5CE7E600C6BE97 /* Preview Assets.xcassets */; };
+		BFBE86032B6A63B400172853 /* DrawerViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE86022B6A63B400172853 /* DrawerViewApp.swift */; };
+		BFBE86052B6A63B400172853 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE86042B6A63B400172853 /* ContentView.swift */; };
+		BFBE86072B6A63B500172853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBE86062B6A63B500172853 /* Assets.xcassets */; };
+		BFBE860A2B6A63B500172853 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBE86092B6A63B500172853 /* Preview Assets.xcassets */; };
 		BFC1B2EA2B2CD2D900B4C270 /* Gauge Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BFC1B2E92B2CD2D900B4C270 /* Gauge Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BFC1B2EF2B2CD2DA00B4C270 /* GaugeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1B2EE2B2CD2DA00B4C270 /* GaugeApp.swift */; };
 		BFC1B2F12B2CD2DA00B4C270 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1B2F02B2CD2DA00B4C270 /* ContentView.swift */; };
@@ -513,6 +517,11 @@
 		BFBB8F302B5CE7E500C6BE97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFBB8F322B5CE7E600C6BE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBB8F352B5CE7E600C6BE97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFBE86002B6A63B400172853 /* DrawerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBE86022B6A63B400172853 /* DrawerViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewApp.swift; sourceTree = "<group>"; };
+		BFBE86042B6A63B400172853 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFBE86062B6A63B500172853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFBE86092B6A63B500172853 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFC1B2E42B2CD2D900B4C270 /* Gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC1B2E92B2CD2D900B4C270 /* Gauge Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gauge Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC1B2EE2B2CD2DA00B4C270 /* GaugeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeApp.swift; sourceTree = "<group>"; };
@@ -882,6 +891,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFBB8F292B5CE7E500C6BE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBE85FD2B6A63B400172853 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2057,6 +2073,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BFBE85FB2B6A639900172853 /* 58.DrawerView */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE86012B6A63B400172853 /* DrawerView */,
+			);
+			path = 58.DrawerView;
+			sourceTree = "<group>";
+		};
+		BFBE86012B6A63B400172853 /* DrawerView */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE86022B6A63B400172853 /* DrawerViewApp.swift */,
+				BFBE86042B6A63B400172853 /* ContentView.swift */,
+				BFBE86062B6A63B500172853 /* Assets.xcassets */,
+				BFBE86082B6A63B500172853 /* Preview Content */,
+			);
+			path = DrawerView;
+			sourceTree = "<group>";
+		};
+		BFBE86082B6A63B500172853 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE86092B6A63B500172853 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BFC1B2E12B2CD2B600B4C270 /* 2.Gauge */ = {
 			isa = PBXGroup;
 			children = (
@@ -2604,6 +2647,7 @@
 				BF3172352B669CEB00625074 /* 55.RotationEffect */,
 				BFD5F0D42B68D0BA007DA821 /* 56.CustomShapes */,
 				BF4659C32B68E40000587AD3 /* 57.BlurEffect */,
+				BFBE85FB2B6A639900172853 /* 58.DrawerView */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -2671,6 +2715,7 @@
 				BF31723A2B669D0600625074 /* RotationEffect.app */,
 				BFD5F0D92B68D0CE007DA821 /* CustomShapes.app */,
 				BF4659B52B68E3FB00587AD3 /* BlurEffect.app */,
+				BFBE86002B6A63B400172853 /* DrawerView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3378,6 +3423,23 @@
 			productReference = BFBB8F2C2B5CE7E500C6BE97 /* AppStorage.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFBE85FF2B6A63B400172853 /* DrawerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBE860B2B6A63B500172853 /* Build configuration list for PBXNativeTarget "DrawerView" */;
+			buildPhases = (
+				BFBE85FC2B6A63B400172853 /* Sources */,
+				BFBE85FD2B6A63B400172853 /* Frameworks */,
+				BFBE85FE2B6A63B400172853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawerView;
+			productName = DrawerView;
+			productReference = BFBE86002B6A63B400172853 /* DrawerView.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFC1B2E32B2CD2D900B4C270 /* Gauge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFC1B3112B2CD2DC00B4C270 /* Build configuration list for PBXNativeTarget "Gauge" */;
@@ -3899,6 +3961,9 @@
 					BFBB8F2B2B5CE7E500C6BE97 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFBE85FF2B6A63B400172853 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFC1B2E32B2CD2D900B4C270 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -4052,6 +4117,7 @@
 				BF3172392B669D0600625074 /* RotationEffect */,
 				BFD5F0D82B68D0CE007DA821 /* CustomShapes */,
 				BF4659B42B68E3FB00587AD3 /* BlurEffect */,
+				BFBE85FF2B6A63B400172853 /* DrawerView */,
 			);
 		};
 /* End PBXProject section */
@@ -4380,6 +4446,15 @@
 			files = (
 				BFBB8F362B5CE7E600C6BE97 /* Preview Assets.xcassets in Resources */,
 				BFBB8F332B5CE7E600C6BE97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBE85FE2B6A63B400172853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBE860A2B6A63B500172853 /* Preview Assets.xcassets in Resources */,
+				BFBE86072B6A63B500172853 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4922,6 +4997,15 @@
 			files = (
 				BFBB8F312B5CE7E500C6BE97 /* ContentView.swift in Sources */,
 				BFBB8F2F2B5CE7E500C6BE97 /* AppStorageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBE85FC2B6A63B400172853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBE86052B6A63B400172853 /* ContentView.swift in Sources */,
+				BFBE86032B6A63B400172853 /* DrawerViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7308,6 +7392,66 @@
 			};
 			name = Release;
 		};
+		BFBE860C2B6A63B500172853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"58.DrawerView/DrawerView/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.DrawerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFBE860D2B6A63B500172853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"58.DrawerView/DrawerView/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.DrawerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BFC1B30E2B2CD2DC00B4C270 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9092,6 +9236,15 @@
 			buildConfigurations = (
 				BFBB8F382B5CE7E600C6BE97 /* Debug */,
 				BFBB8F392B5CE7E600C6BE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFBE860B2B6A63B500172853 /* Build configuration list for PBXNativeTarget "DrawerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBE860C2B6A63B500172853 /* Debug */,
+				BFBE860D2B6A63B500172853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
