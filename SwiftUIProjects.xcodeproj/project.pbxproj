@@ -261,6 +261,10 @@
 		BFE70B5E2B2CC0070077FB17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE70B5D2B2CC0070077FB17 /* ContentView.swift */; };
 		BFE70B602B2CC0080077FB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE70B5F2B2CC0080077FB17 /* Assets.xcassets */; };
 		BFE70B632B2CC0080077FB17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE70B622B2CC0080077FB17 /* Preview Assets.xcassets */; };
+		BFF94E532B6E468B0078C68E /* AppleSignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF94E522B6E468B0078C68E /* AppleSignApp.swift */; };
+		BFF94E552B6E468B0078C68E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF94E542B6E468B0078C68E /* ContentView.swift */; };
+		BFF94E572B6E468C0078C68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF94E562B6E468C0078C68E /* Assets.xcassets */; };
+		BFF94E5A2B6E468C0078C68E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF94E592B6E468C0078C68E /* Preview Assets.xcassets */; };
 		BFFBCDFA2B5903A300B2FBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFBCDF52B5903A200B2FBE2 /* Assets.xcassets */; };
 		BFFBCDFB2B5903A300B2FBE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFBCDF72B5903A200B2FBE2 /* Preview Assets.xcassets */; };
 		BFFBCDFC2B5903A300B2FBE2 /* DatePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFBCDF82B5903A200B2FBE2 /* DatePickerApp.swift */; };
@@ -628,6 +632,12 @@
 		BFE70B5F2B2CC0080077FB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE70B622B2CC0080077FB17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFF297BE2B5CD5F000EEBCDC /* CoolSwiftUICharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolSwiftUICharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF94E502B6E468B0078C68E /* AppleSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF94E522B6E468B0078C68E /* AppleSignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignApp.swift; sourceTree = "<group>"; };
+		BFF94E542B6E468B0078C68E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFF94E562B6E468C0078C68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF94E592B6E468C0078C68E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFF94E5E2B6E46AD0078C68E /* AppleSign.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSign.entitlements; sourceTree = "<group>"; };
 		BFFBCDF52B5903A200B2FBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFFBCDF72B5903A200B2FBE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFFBCDF82B5903A200B2FBE2 /* DatePickerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerApp.swift; sourceTree = "<group>"; };
@@ -1050,6 +1060,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFF297BB2B5CD5F000EEBCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF94E4D2B6E468B0078C68E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2100,6 +2117,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BFBE860E2B6A6DBA00172853 /* 59.AppleSign */ = {
+			isa = PBXGroup;
+			children = (
+				BFF94E512B6E468B0078C68E /* AppleSign */,
+			);
+			path = 59.AppleSign;
+			sourceTree = "<group>";
+		};
 		BFC1B2E12B2CD2B600B4C270 /* 2.Gauge */ = {
 			isa = PBXGroup;
 			children = (
@@ -2648,6 +2673,7 @@
 				BFD5F0D42B68D0BA007DA821 /* 56.CustomShapes */,
 				BF4659C32B68E40000587AD3 /* 57.BlurEffect */,
 				BFBE85FB2B6A639900172853 /* 58.DrawerView */,
+				BFBE860E2B6A6DBA00172853 /* 59.AppleSign */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -2716,6 +2742,7 @@
 				BFD5F0D92B68D0CE007DA821 /* CustomShapes.app */,
 				BF4659B52B68E3FB00587AD3 /* BlurEffect.app */,
 				BFBE86002B6A63B400172853 /* DrawerView.app */,
+				BFF94E502B6E468B0078C68E /* AppleSign.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2743,6 +2770,26 @@
 			isa = PBXGroup;
 			children = (
 				BFE70B622B2CC0080077FB17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFF94E512B6E468B0078C68E /* AppleSign */ = {
+			isa = PBXGroup;
+			children = (
+				BFF94E5E2B6E46AD0078C68E /* AppleSign.entitlements */,
+				BFF94E522B6E468B0078C68E /* AppleSignApp.swift */,
+				BFF94E542B6E468B0078C68E /* ContentView.swift */,
+				BFF94E562B6E468C0078C68E /* Assets.xcassets */,
+				BFF94E582B6E468C0078C68E /* Preview Content */,
+			);
+			path = AppleSign;
+			sourceTree = "<group>";
+		};
+		BFF94E582B6E468C0078C68E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFF94E592B6E468C0078C68E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -3826,6 +3873,23 @@
 			productReference = BFF297BE2B5CD5F000EEBCDC /* CoolSwiftUICharts.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFF94E4F2B6E468B0078C68E /* AppleSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF94E5B2B6E468C0078C68E /* Build configuration list for PBXNativeTarget "AppleSign" */;
+			buildPhases = (
+				BFF94E4C2B6E468B0078C68E /* Sources */,
+				BFF94E4D2B6E468B0078C68E /* Frameworks */,
+				BFF94E4E2B6E468B0078C68E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleSign;
+			productName = AppleSign;
+			productReference = BFF94E502B6E468B0078C68E /* AppleSign.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFFC49E62B59091900EFCB2D /* SideMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFFC49F22B59091C00EFCB2D /* Build configuration list for PBXNativeTarget "SideMenu" */;
@@ -4030,6 +4094,9 @@
 					BFF297BD2B5CD5F000EEBCDC = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFF94E4F2B6E468B0078C68E = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFFC49E62B59091900EFCB2D = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -4118,6 +4185,7 @@
 				BFD5F0D82B68D0CE007DA821 /* CustomShapes */,
 				BF4659B42B68E3FB00587AD3 /* BlurEffect */,
 				BFBE85FF2B6A63B400172853 /* DrawerView */,
+				BFF94E4F2B6E468B0078C68E /* AppleSign */,
 			);
 		};
 /* End PBXProject section */
@@ -4649,6 +4717,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF94E4E2B6E468B0078C68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF94E5A2B6E468C0078C68E /* Preview Assets.xcassets in Resources */,
+				BFF94E572B6E468C0078C68E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5197,6 +5274,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF94E4C2B6E468B0078C68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF94E552B6E468B0078C68E /* ContentView.swift in Sources */,
+				BFF94E532B6E468B0078C68E /* AppleSignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8853,6 +8939,68 @@
 			};
 			name = Release;
 		};
+		BFF94E5C2B6E468C0078C68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 59.AppleSign/AppleSign/AppleSign.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"59.AppleSign/AppleSign/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AppleSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF94E5D2B6E468C0078C68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 59.AppleSign/AppleSign/AppleSign.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"59.AppleSign/AppleSign/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AppleSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BFFC49F32B59091C00EFCB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9452,6 +9600,15 @@
 			buildConfigurations = (
 				BFF297CA2B5CD5F100EEBCDC /* Debug */,
 				BFF297CB2B5CD5F100EEBCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF94E5B2B6E468C0078C68E /* Build configuration list for PBXNativeTarget "AppleSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF94E5C2B6E468C0078C68E /* Debug */,
+				BFF94E5D2B6E468C0078C68E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
