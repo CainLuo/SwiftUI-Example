@@ -265,6 +265,10 @@
 		BFF94E552B6E468B0078C68E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF94E542B6E468B0078C68E /* ContentView.swift */; };
 		BFF94E572B6E468C0078C68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF94E562B6E468C0078C68E /* Assets.xcassets */; };
 		BFF94E5A2B6E468C0078C68E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF94E592B6E468C0078C68E /* Preview Assets.xcassets */; };
+		BFF94E792B6E8DE60078C68E /* AsyncImagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF94E782B6E8DE60078C68E /* AsyncImagesApp.swift */; };
+		BFF94E7B2B6E8DE60078C68E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF94E7A2B6E8DE60078C68E /* ContentView.swift */; };
+		BFF94E7D2B6E8DE70078C68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF94E7C2B6E8DE70078C68E /* Assets.xcassets */; };
+		BFF94E802B6E8DE70078C68E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF94E7F2B6E8DE70078C68E /* Preview Assets.xcassets */; };
 		BFFBCDFA2B5903A300B2FBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFBCDF52B5903A200B2FBE2 /* Assets.xcassets */; };
 		BFFBCDFB2B5903A300B2FBE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFBCDF72B5903A200B2FBE2 /* Preview Assets.xcassets */; };
 		BFFBCDFC2B5903A300B2FBE2 /* DatePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFBCDF82B5903A200B2FBE2 /* DatePickerApp.swift */; };
@@ -638,6 +642,11 @@
 		BFF94E562B6E468C0078C68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFF94E592B6E468C0078C68E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFF94E5E2B6E46AD0078C68E /* AppleSign.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSign.entitlements; sourceTree = "<group>"; };
+		BFF94E762B6E8DE60078C68E /* AsyncImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF94E782B6E8DE60078C68E /* AsyncImagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagesApp.swift; sourceTree = "<group>"; };
+		BFF94E7A2B6E8DE60078C68E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFF94E7C2B6E8DE70078C68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF94E7F2B6E8DE70078C68E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFFBCDF52B5903A200B2FBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFFBCDF72B5903A200B2FBE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFFBCDF82B5903A200B2FBE2 /* DatePickerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerApp.swift; sourceTree = "<group>"; };
@@ -1067,6 +1076,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFF94E4D2B6E468B0078C68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF94E732B6E8DE60078C68E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2674,6 +2690,7 @@
 				BF4659C32B68E40000587AD3 /* 57.BlurEffect */,
 				BFBE85FB2B6A639900172853 /* 58.DrawerView */,
 				BFBE860E2B6A6DBA00172853 /* 59.AppleSign */,
+				BFF94E5F2B6E8D370078C68E /* 60.AsyncImages */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -2743,6 +2760,7 @@
 				BF4659B52B68E3FB00587AD3 /* BlurEffect.app */,
 				BFBE86002B6A63B400172853 /* DrawerView.app */,
 				BFF94E502B6E468B0078C68E /* AppleSign.app */,
+				BFF94E762B6E8DE60078C68E /* AsyncImages.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2790,6 +2808,33 @@
 			isa = PBXGroup;
 			children = (
 				BFF94E592B6E468C0078C68E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFF94E5F2B6E8D370078C68E /* 60.AsyncImages */ = {
+			isa = PBXGroup;
+			children = (
+				BFF94E772B6E8DE60078C68E /* AsyncImages */,
+			);
+			path = 60.AsyncImages;
+			sourceTree = "<group>";
+		};
+		BFF94E772B6E8DE60078C68E /* AsyncImages */ = {
+			isa = PBXGroup;
+			children = (
+				BFF94E782B6E8DE60078C68E /* AsyncImagesApp.swift */,
+				BFF94E7A2B6E8DE60078C68E /* ContentView.swift */,
+				BFF94E7C2B6E8DE70078C68E /* Assets.xcassets */,
+				BFF94E7E2B6E8DE70078C68E /* Preview Content */,
+			);
+			path = AsyncImages;
+			sourceTree = "<group>";
+		};
+		BFF94E7E2B6E8DE70078C68E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFF94E7F2B6E8DE70078C68E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -3890,6 +3935,23 @@
 			productReference = BFF94E502B6E468B0078C68E /* AppleSign.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFF94E752B6E8DE60078C68E /* AsyncImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF94E812B6E8DE70078C68E /* Build configuration list for PBXNativeTarget "AsyncImages" */;
+			buildPhases = (
+				BFF94E722B6E8DE60078C68E /* Sources */,
+				BFF94E732B6E8DE60078C68E /* Frameworks */,
+				BFF94E742B6E8DE60078C68E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncImages;
+			productName = AsyncImages;
+			productReference = BFF94E762B6E8DE60078C68E /* AsyncImages.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFFC49E62B59091900EFCB2D /* SideMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFFC49F22B59091C00EFCB2D /* Build configuration list for PBXNativeTarget "SideMenu" */;
@@ -4097,6 +4159,9 @@
 					BFF94E4F2B6E468B0078C68E = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BFF94E752B6E8DE60078C68E = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BFFC49E62B59091900EFCB2D = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -4186,6 +4251,7 @@
 				BF4659B42B68E3FB00587AD3 /* BlurEffect */,
 				BFBE85FF2B6A63B400172853 /* DrawerView */,
 				BFF94E4F2B6E468B0078C68E /* AppleSign */,
+				BFF94E752B6E8DE60078C68E /* AsyncImages */,
 			);
 		};
 /* End PBXProject section */
@@ -4726,6 +4792,15 @@
 			files = (
 				BFF94E5A2B6E468C0078C68E /* Preview Assets.xcassets in Resources */,
 				BFF94E572B6E468C0078C68E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF94E742B6E8DE60078C68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF94E802B6E8DE70078C68E /* Preview Assets.xcassets in Resources */,
+				BFF94E7D2B6E8DE70078C68E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5283,6 +5358,15 @@
 			files = (
 				BFF94E552B6E468B0078C68E /* ContentView.swift in Sources */,
 				BFF94E532B6E468B0078C68E /* AppleSignApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF94E722B6E8DE60078C68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF94E7B2B6E8DE60078C68E /* ContentView.swift in Sources */,
+				BFF94E792B6E8DE60078C68E /* AsyncImagesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9001,6 +9085,66 @@
 			};
 			name = Release;
 		};
+		BFF94E822B6E8DE70078C68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"60.AsyncImages/AsyncImages/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AsyncImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF94E832B6E8DE70078C68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"60.AsyncImages/AsyncImages/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.AsyncImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BFFC49F32B59091C00EFCB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9609,6 +9753,15 @@
 			buildConfigurations = (
 				BFF94E5C2B6E468C0078C68E /* Debug */,
 				BFF94E5D2B6E468C0078C68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF94E812B6E8DE70078C68E /* Build configuration list for PBXNativeTarget "AsyncImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF94E822B6E8DE70078C68E /* Debug */,
+				BFF94E832B6E8DE70078C68E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
