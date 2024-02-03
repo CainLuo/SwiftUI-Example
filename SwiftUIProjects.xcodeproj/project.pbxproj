@@ -121,6 +121,10 @@
 		BF55813F2B6E9103003A5487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF55813B2B6E9103003A5487 /* Preview Assets.xcassets */; };
 		BF5581402B6E9103003A5487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55813C2B6E9103003A5487 /* ContentView.swift */; };
 		BF5581412B6E9103003A5487 /* PullToRefreshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55813D2B6E9103003A5487 /* PullToRefreshApp.swift */; };
+		BF55814A2B6E9768003A5487 /* SwipeActionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5581492B6E9768003A5487 /* SwipeActionApp.swift */; };
+		BF55814C2B6E9768003A5487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55814B2B6E9768003A5487 /* ContentView.swift */; };
+		BF55814E2B6E9769003A5487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF55814D2B6E9769003A5487 /* Assets.xcassets */; };
+		BF5581512B6E9769003A5487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5581502B6E9769003A5487 /* Preview Assets.xcassets */; };
 		BF6ECC522B51A322007D3786 /* MVVMPatternApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6ECC512B51A322007D3786 /* MVVMPatternApp.swift */; };
 		BF6ECC542B51A322007D3786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6ECC532B51A322007D3786 /* ContentView.swift */; };
 		BF6ECC562B51A322007D3786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6ECC552B51A322007D3786 /* Assets.xcassets */; };
@@ -470,6 +474,11 @@
 		BF55813B2B6E9103003A5487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF55813C2B6E9103003A5487 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF55813D2B6E9103003A5487 /* PullToRefreshApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshApp.swift; sourceTree = "<group>"; };
+		BF5581472B6E9768003A5487 /* SwipeAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5581492B6E9768003A5487 /* SwipeActionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionApp.swift; sourceTree = "<group>"; };
+		BF55814B2B6E9768003A5487 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF55814D2B6E9769003A5487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5581502B6E9769003A5487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF6623D82B5903420068FC0F /* DatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6ECC4F2B51A321007D3786 /* MVVMPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6ECC512B51A322007D3786 /* MVVMPatternApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMPatternApp.swift; sourceTree = "<group>"; };
@@ -828,6 +837,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD34C1E2B54E022005C0062 /* ActivityIndicatorView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5581442B6E9768003A5487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1793,6 +1809,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BF5581422B6E9722003A5487 /* 62.SwipeAction */ = {
+			isa = PBXGroup;
+			children = (
+				BF5581482B6E9768003A5487 /* SwipeAction */,
+			);
+			path = 62.SwipeAction;
+			sourceTree = "<group>";
+		};
+		BF5581482B6E9768003A5487 /* SwipeAction */ = {
+			isa = PBXGroup;
+			children = (
+				BF5581492B6E9768003A5487 /* SwipeActionApp.swift */,
+				BF55814B2B6E9768003A5487 /* ContentView.swift */,
+				BF55814D2B6E9769003A5487 /* Assets.xcassets */,
+				BF55814F2B6E9769003A5487 /* Preview Content */,
+			);
+			path = SwipeAction;
+			sourceTree = "<group>";
+		};
+		BF55814F2B6E9769003A5487 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF5581502B6E9769003A5487 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BF618DD02B62BA1E00A9C3A2 /* 47.FirebaseAuthExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -2727,6 +2770,7 @@
 				BFBE860E2B6A6DBA00172853 /* 59.AppleSign */,
 				BFF94E5F2B6E8D370078C68E /* 60.AsyncImages */,
 				BFF94E842B6E8FFC0078C68E /* 61.PullToRefresh */,
+				BF5581422B6E9722003A5487 /* 62.SwipeAction */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -2798,6 +2842,7 @@
 				BFF94E502B6E468B0078C68E /* AppleSign.app */,
 				BFF94E762B6E8DE60078C68E /* AsyncImages.app */,
 				BFF94E892B6E90E50078C68E /* PullToRefresh.app */,
+				BF5581472B6E9768003A5487 /* SwipeAction.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3328,6 +3373,23 @@
 			);
 			productName = ActivityIndicator;
 			productReference = BF52FCAB2B54DA1200DBCF36 /* ActivityIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5581462B6E9768003A5487 /* SwipeAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5581522B6E9769003A5487 /* Build configuration list for PBXNativeTarget "SwipeAction" */;
+			buildPhases = (
+				BF5581432B6E9768003A5487 /* Sources */,
+				BF5581442B6E9768003A5487 /* Frameworks */,
+				BF5581452B6E9768003A5487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeAction;
+			productName = SwipeAction;
+			productReference = BF5581472B6E9768003A5487 /* SwipeAction.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BF6623D72B5903420068FC0F /* DatePicker */ = {
@@ -4110,6 +4172,9 @@
 					BF52FCAA2B54DA1200DBCF36 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BF5581462B6E9768003A5487 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BF6623D72B5903420068FC0F = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -4318,6 +4383,7 @@
 				BFF94E4F2B6E468B0078C68E /* AppleSign */,
 				BFF94E752B6E8DE60078C68E /* AsyncImages */,
 				BFF94E882B6E90E50078C68E /* PullToRefresh */,
+				BF5581462B6E9768003A5487 /* SwipeAction */,
 			);
 		};
 /* End PBXProject section */
@@ -4528,6 +4594,15 @@
 			files = (
 				BFD34C192B54DA93005C0062 /* Preview Assets.xcassets in Resources */,
 				BFD34C182B54DA93005C0062 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5581452B6E9768003A5487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5581512B6E9769003A5487 /* Preview Assets.xcassets in Resources */,
+				BF55814E2B6E9769003A5487 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5104,6 +5179,15 @@
 			files = (
 				BFD34C1B2B54DA93005C0062 /* ContentView.swift in Sources */,
 				BFD34C1A2B54DA93005C0062 /* ActivityIndicatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5581432B6E9768003A5487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF55814C2B6E9768003A5487 /* ContentView.swift in Sources */,
+				BF55814A2B6E9768003A5487 /* SwipeActionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6859,6 +6943,66 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.ActivityIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF5581532B6E9769003A5487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"62.SwipeAction/SwipeAction/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.SwipeAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF5581542B6E9769003A5487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"62.SwipeAction/SwipeAction/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.SwipeAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -9555,6 +9699,15 @@
 			buildConfigurations = (
 				BF52FCB72B54DA1400DBCF36 /* Debug */,
 				BF52FCB82B54DA1400DBCF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5581522B6E9769003A5487 /* Build configuration list for PBXNativeTarget "SwipeAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5581532B6E9769003A5487 /* Debug */,
+				BF5581542B6E9769003A5487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
