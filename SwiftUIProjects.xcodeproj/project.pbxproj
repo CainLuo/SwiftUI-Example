@@ -139,6 +139,16 @@
 		BF5581892B6F59D9003A5487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5581882B6F59D9003A5487 /* ContentView.swift */; };
 		BF55818B2B6F59DA003A5487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF55818A2B6F59DA003A5487 /* Assets.xcassets */; };
 		BF55818E2B6F59DA003A5487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF55818D2B6F59DA003A5487 /* Preview Assets.xcassets */; };
+		BF55819B2B6F684A003A5487 /* PinterestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55819A2B6F684A003A5487 /* PinterestApp.swift */; };
+		BF55819D2B6F684A003A5487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55819C2B6F684A003A5487 /* ContentView.swift */; };
+		BF55819F2B6F684C003A5487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF55819E2B6F684B003A5487 /* Assets.xcassets */; };
+		BF5581A22B6F684C003A5487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5581A12B6F684C003A5487 /* Preview Assets.xcassets */; };
+		BF5581A82B6F68A6003A5487 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5581A72B6F68A6003A5487 /* Home.swift */; };
+		BF5581AB2B6F693D003A5487 /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5581AA2B6F693D003A5487 /* BlurWindow.swift */; };
+		BF5581AD2B6F6BB0003A5487 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5581AC2B6F6BB0003A5487 /* TabButton.swift */; };
+		BF5581B02B6F7EA2003A5487 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BF5581AF2B6F7EA2003A5487 /* SDWebImageSwiftUI */; };
+		BF5581B32B6F7EEE003A5487 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5581B22B6F7EEE003A5487 /* ImageModel.swift */; };
+		BF5581B62B6F7F3A003A5487 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5581B52B6F7F3A003A5487 /* ImageViewModel.swift */; };
 		BF6ECC522B51A322007D3786 /* MVVMPatternApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6ECC512B51A322007D3786 /* MVVMPatternApp.swift */; };
 		BF6ECC542B51A322007D3786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6ECC532B51A322007D3786 /* ContentView.swift */; };
 		BF6ECC562B51A322007D3786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6ECC552B51A322007D3786 /* Assets.xcassets */; };
@@ -511,6 +521,17 @@
 		BF55818A2B6F59DA003A5487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF55818D2B6F59DA003A5487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF55818F2B6F59DA003A5487 /* iOSAcademy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSAcademy.entitlements; sourceTree = "<group>"; };
+		BF5581982B6F684A003A5487 /* Pinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF55819A2B6F684A003A5487 /* PinterestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestApp.swift; sourceTree = "<group>"; };
+		BF55819C2B6F684A003A5487 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF55819E2B6F684B003A5487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5581A12B6F684C003A5487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF5581A32B6F684C003A5487 /* Pinterest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pinterest.entitlements; sourceTree = "<group>"; };
+		BF5581A72B6F68A6003A5487 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BF5581AA2B6F693D003A5487 /* BlurWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurWindow.swift; sourceTree = "<group>"; };
+		BF5581AC2B6F6BB0003A5487 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		BF5581B22B6F7EEE003A5487 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		BF5581B52B6F7F3A003A5487 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		BF6623D82B5903420068FC0F /* DatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6ECC4F2B51A321007D3786 /* MVVMPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6ECC512B51A322007D3786 /* MVVMPatternApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMPatternApp.swift; sourceTree = "<group>"; };
@@ -897,6 +918,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5581952B6F684A003A5487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5581B02B6F7EA2003A5487 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1973,6 +2002,63 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BF5581932B6F6838003A5487 /* 66.Pinterest */ = {
+			isa = PBXGroup;
+			children = (
+				BF5581992B6F684A003A5487 /* Pinterest */,
+			);
+			path = 66.Pinterest;
+			sourceTree = "<group>";
+		};
+		BF5581992B6F684A003A5487 /* Pinterest */ = {
+			isa = PBXGroup;
+			children = (
+				BF5581B42B6F7F2D003A5487 /* ViewModel */,
+				BF5581B12B6F7EDF003A5487 /* Models */,
+				BF55819A2B6F684A003A5487 /* PinterestApp.swift */,
+				BF55819C2B6F684A003A5487 /* ContentView.swift */,
+				BF5581A92B6F68CC003A5487 /* Views */,
+				BF55819E2B6F684B003A5487 /* Assets.xcassets */,
+				BF5581A32B6F684C003A5487 /* Pinterest.entitlements */,
+				BF5581A02B6F684C003A5487 /* Preview Content */,
+			);
+			path = Pinterest;
+			sourceTree = "<group>";
+		};
+		BF5581A02B6F684C003A5487 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF5581A12B6F684C003A5487 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF5581A92B6F68CC003A5487 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF5581A72B6F68A6003A5487 /* Home.swift */,
+				BF5581AA2B6F693D003A5487 /* BlurWindow.swift */,
+				BF5581AC2B6F6BB0003A5487 /* TabButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF5581B12B6F7EDF003A5487 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF5581B22B6F7EEE003A5487 /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF5581B42B6F7F2D003A5487 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF5581B52B6F7F3A003A5487 /* ImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		BF618DD02B62BA1E00A9C3A2 /* 47.FirebaseAuthExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -2911,6 +2997,7 @@
 				BF5581552B6E9C93003A5487 /* 63.AppleStore */,
 				BF55816C2B6F49A9003A5487 /* 64.PhotoMania */,
 				BF55817F2B6F5988003A5487 /* 65.iOSAcademy */,
+				BF5581932B6F6838003A5487 /* 66.Pinterest */,
 				BFD6D5882B3ADA0800D66C90 /* Frameworks */,
 				BFE70B272B2CBF510077FB17 /* Products */,
 			);
@@ -2986,6 +3073,7 @@
 				BF55815A2B6E9CC4003A5487 /* AppleStore.app */,
 				BF5581712B6F49ED003A5487 /* PhotoMania.app */,
 				BF5581842B6F59D8003A5487 /* iOSAcademy.app */,
+				BF5581982B6F684A003A5487 /* Pinterest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3584,6 +3672,26 @@
 			name = iOSAcademy;
 			productName = iOSAcademy;
 			productReference = BF5581842B6F59D8003A5487 /* iOSAcademy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5581972B6F684A003A5487 /* Pinterest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5581A42B6F684C003A5487 /* Build configuration list for PBXNativeTarget "Pinterest" */;
+			buildPhases = (
+				BF5581942B6F684A003A5487 /* Sources */,
+				BF5581952B6F684A003A5487 /* Frameworks */,
+				BF5581962B6F684A003A5487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinterest;
+			packageProductDependencies = (
+				BF5581AF2B6F7EA2003A5487 /* SDWebImageSwiftUI */,
+			);
+			productName = Pinterest;
+			productReference = BF5581982B6F684A003A5487 /* Pinterest.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BF6623D72B5903420068FC0F /* DatePicker */ = {
@@ -4378,6 +4486,9 @@
 					BF5581832B6F59D8003A5487 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BF5581972B6F684A003A5487 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BF6623D72B5903420068FC0F = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -4518,6 +4629,7 @@
 				BFD34C322B54E878005C0062 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
 				BFD34C352B54F515005C0062 /* XCRemoteSwiftPackageReference "PopupView" */,
 				BFA9DEC92B601D3D00BBB06B /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				BF5581AE2B6F7EA2003A5487 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = BFE70B272B2CBF510077FB17 /* Products */;
 			projectDirPath = "";
@@ -4590,6 +4702,7 @@
 				BF5581592B6E9CC4003A5487 /* AppleStore */,
 				BF5581702B6F49ED003A5487 /* PhotoMania */,
 				BF5581832B6F59D8003A5487 /* iOSAcademy */,
+				BF5581972B6F684A003A5487 /* Pinterest */,
 			);
 		};
 /* End PBXProject section */
@@ -4837,6 +4950,15 @@
 			files = (
 				BF55818E2B6F59DA003A5487 /* Preview Assets.xcassets in Resources */,
 				BF55818B2B6F59DA003A5487 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5581962B6F684A003A5487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5581A22B6F684C003A5487 /* Preview Assets.xcassets in Resources */,
+				BF55819F2B6F684C003A5487 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5450,6 +5572,20 @@
 			files = (
 				BF5581892B6F59D9003A5487 /* ContentView.swift in Sources */,
 				BF5581872B6F59D9003A5487 /* iOSAcademyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5581942B6F684A003A5487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5581B62B6F7F3A003A5487 /* ImageViewModel.swift in Sources */,
+				BF5581AB2B6F693D003A5487 /* BlurWindow.swift in Sources */,
+				BF5581B32B6F7EEE003A5487 /* ImageModel.swift in Sources */,
+				BF55819D2B6F684A003A5487 /* ContentView.swift in Sources */,
+				BF5581A82B6F68A6003A5487 /* Home.swift in Sources */,
+				BF5581AD2B6F6BB0003A5487 /* TabButton.swift in Sources */,
+				BF55819B2B6F684A003A5487 /* PinterestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7445,6 +7581,64 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.iOSAcademy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BF5581A52B6F684C003A5487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 66.Pinterest/Pinterest/Pinterest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"66.Pinterest/Pinterest/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.Pinterest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BF5581A62B6F684C003A5487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 66.Pinterest/Pinterest/Pinterest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"66.Pinterest/Pinterest/Preview Content\"";
+				DEVELOPMENT_TEAM = M67UHY3N8U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caom.cainluo.Pinterest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -10181,6 +10375,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BF5581A42B6F684C003A5487 /* Build configuration list for PBXNativeTarget "Pinterest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5581A52B6F684C003A5487 /* Debug */,
+				BF5581A62B6F684C003A5487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BF6623E32B5903420068FC0F /* Build configuration list for PBXNativeTarget "DatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -10569,6 +10772,14 @@
 				minimumVersion = 1.0.5;
 			};
 		};
+		BF5581AE2B6F7EA2003A5487 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.6;
+			};
+		};
 		BFA27F0D2B54055E00CCB908 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -10629,6 +10840,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BF52FCA32B54453C00DBCF36 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */;
 			productName = ConcentricOnboarding;
+		};
+		BF5581AF2B6F7EA2003A5487 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF5581AE2B6F7EA2003A5487 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 		BFA27F0E2B54055E00CCB908 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
